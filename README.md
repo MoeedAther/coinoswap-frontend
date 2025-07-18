@@ -1,4 +1,5 @@
 # coinoswap-frontend
+
 FRONTEND BUILD USING REACT
 
 # 🚀 CoinoSwap - Crypto Exchange Aggregator
@@ -258,5 +259,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Made with ❤️ by the CoinoSwap Team**
+
+For more information, visit [coinoswap.com](https://coinoswap.com)
 
 For more information, visit [coinoswap.com](https://coinoswap.com)
