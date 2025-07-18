@@ -1,0 +1,258 @@
+/* Media query for small screnn 1440 screen*/
+@media only screen and (min-width: 1440px) and (max-width: 1440px) {
+  .table-row {
+    /* margin: 2% -2%; */
+    /* padding: 2% 2%; */
+    padding-right: 13px;
+    padding-left: 13px;
+  }
+
+  .table-header {
+    padding-left: 23px;
+    padding-right: 23px;
+  }
+}
+/* Media query for small screnn 1024 screen*/
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .coin-icon {
+    width: 38px;
+    height: 38px;
+  }
+  .coin-info strong {
+    font-size: 17px;
+  }
+  .coin-fullname {
+    font-size: 14px;
+  }
+  .t_data {
+    font-size: 14px;
+  }
+  .exchange-button .exchange-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .exchange-button {
+    padding: 10px 11px;
+    width: 144px;
+    height: 48px;
+    border: 1px solid #100f0e;
+    font-size: 14px;
+  }
+  .row.table-row {
+    padding: 0% 2% 0% 0%;
+  }
+}
+/* Media query for Tablet 768 screen*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  p.currencies_para {
+    width: 65%;
+    margin: 0px auto;
+  }
+  .table-header h4 {
+    font-size: 18px;
+  }
+  .coin-icon {
+    width: 32px;
+    height: 32px;
+  }
+  .coin-info strong {
+    font-size: 15px;
+  }
+  .coin-fullname {
+    font-size: 13px;
+  }
+  .t_data {
+    font-size: 12px;
+  }
+  .exchange-button {
+    padding: 0px 6px;
+    border: none;
+    border-radius: 1000px;
+    color: #100f0e;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    width: 115px;
+    height: 43px;
+    border: 1px solid #100f0e;
+    font-size: 11px;
+    font-weight: 800;
+    line-height: 24px;
+    font-family: basementgrotesque;
+    background-color: transparent;
+    margin: 0px 0px 0px -22px;
+  }
+  .exchange-button .exchange-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+  }
+  .table-row {
+    margin: 2% -3% 0% 0%;
+  }
+}
+/* Media query for mobile devices*/
+@media only screen and (max-width: 767px) {
+  .market-cap {
+    display: none;
+  }
+  .previous a {
+    width: 70px !important;
+    border-radius: 40px !important;
+    height: 30px !important;
+  }
+
+  .next a {
+    width: 70px !important;
+    border-radius: 40px !important;
+    height: 30px !important;
+  }
+
+  .pagination li {
+    padding: 10px 5px;
+  }
+
+  .pagination li > a {
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+  }
+
+  .table-header {
+    padding-bottom: 2%;
+    border-bottom: 1px solid #c5c2bf;
+    margin: 0% 2% 2% 2%;
+  }
+  .table-header h4 {
+    font-size: 9px;
+  }
+  .search-box {
+    font-size: 11.2px;
+  }
+  .coin-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+  }
+  .coin-fullname {
+    font-size: 8px;
+    line-height: 4.36px;
+  }
+  .coin-info strong {
+    font-size: 8px;
+  }
+  .t_data {
+    font-size: 7px;
+  }
+  .exchange-button {
+    padding: 0px 6px;
+    width: 76px;
+    height: 16px;
+    font-size: 8px;
+    font-weight: 800;
+    line-height: 24px;
+    font-family: basementgrotesque;
+    background-color: transparent;
+    margin-left: 9px;
+  }
+  .exchange-button .exchange-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 1px;
+  }
+  .coin-info {
+    margin: 0px;
+  }
+  .price_info {
+    color: #f34900;
+    margin-left: -34px;
+    padding-right: 53px;
+  }
+  .search-icon img {
+    width: 12px;
+    height: 12px;
+    opacity: 0.7;
+  }
+  .search-label {
+    top: -9px;
+    left: 10px;
+    font-size: 11px;
+  }
+  .table-row {
+    margin: 2% 0%;
+    padding: 0% 6% 0% 2%;
+  }
+  .col-3.t_data.volum_data {
+    margin: 0px 4px 0px -6px;
+  }
+
+  .mobile_container {
+    width: 100%;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .search-container {
+    width: 43%;
+  }
+
+  section.table_section {
+    height: 2660px;
+    overflow-y: hidden;
+  }
+
+  .table_section {
+    overflow-x: scroll;
+  }
+  .mobile_container {
+    width: 700px;
+  }
+  .coin-info strong {
+    font-size: 15px;
+  }
+
+  .t_data {
+    font-size: 12px;
+  }
+  .exchange-button {
+    width: 130px;
+    height: 36px;
+    font-size: 12px;
+  }
+
+  .table-header h4 {
+    font-size: 12px;
+  }
+
+  .price_info {
+    margin-left: 0px;
+  }
+
+  .table-row {
+    padding: 0%;
+    margin: 0% 2% 2% 2%;
+  }
+
+  .exchange-button {
+    margin-left: 0px;
+  }
+
+  .coin-fullname {
+    font-size: 10px;
+    line-height: 10px;
+  }
+}
+/* Media query for small mobile devices*/
+@media only screen and (max-width: 375px) {
+  .coin-icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+}

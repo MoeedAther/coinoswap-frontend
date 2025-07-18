@@ -1,0 +1,537 @@
+.swap-crypto-section-mobile {
+  display: none;
+}
+
+.why-choose-container {
+  padding: 0% 2%;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 80vh;
+  background: rgba(255, 255, 255, 0.03); /* Semi-transparent white background */
+  margin: 70px 0px;
+}
+
+.active {
+  color: white !important;
+  position: relative;
+}
+
+.active::after {
+  content: "";
+  height: 4px;
+  width: 100%;
+  background-color: #fd8008;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  opacity: 1;
+  transition: all 0.2s;
+  pointer-events: none;
+  border-radius: 4px;
+}
+
+.why-choose-mobile {
+  display: none;
+}
+
+.why-coinoswap-div-mobile {
+  display: none;
+}
+
+.carousel-item.active::after {
+  background-color: transparent;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  background: #352e2e;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  top: 40vh;
+  opacity: unset;
+}
+
+.carousel-control-prev {
+  left: 10vh;
+}
+
+.carousel-control-next {
+  right: 10vh;
+}
+
+.carousel-item {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.user-review-decription {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.user-review > :nth-child(2) {
+  padding: 20px;
+}
+
+.user-review > :nth-child(2) > :nth-child(1) {
+  margin: 0px;
+}
+
+.user-review > :nth-child(2) > :nth-child(2) {
+  color: rgb(92, 90, 88);
+}
+
+.user-dp div > :nth-child(1) {
+  color: white;
+}
+
+.user-dp span {
+  background-color: rgb(240, 151, 13);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  display: flex;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.user-dp {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 100%;
+  padding: 3px;
+}
+
+.carousel-item h2 {
+  color: white;
+}
+
+.right-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Step_5 {
+  justify-content: end;
+}
+
+.swap_heading {
+  font-family: basementgrotesque;
+  color: #fff;
+}
+.swap_para {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #5e5c5b;
+}
+/*Desktop section css*/
+.swap-crypto-section {
+  padding: 2%;
+  margin-top: 2%;
+}
+h2.swap_crypto {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33.6px;
+  text-align: left;
+  width: 252px;
+}
+p.crypto_para {
+  font-weight: 400;
+  line-height: 19.36px;
+  width: 339px;
+}
+.step-heading h3 {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  text-align: left;
+  margin-left: 50px;
+}
+.Steps p {
+  margin: -12px 0px 0px 50px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  width: 160px;
+  margin-top: 2px;
+}
+.steps_row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.left-content {
+  flex: 1;
+  padding-right: 30px;
+}
+
+.steps {
+  display: flex;
+  align-items: center;
+  /* flex: 2; */
+  width: 100%;
+  justify-content: space-between;
+}
+
+.Steps {
+  display: flex;
+  /* flex-direction: column;
+      align-items: flex-start;
+      flex: 1; */
+  position: relative;
+}
+
+.step-heading {
+  display: block;
+  align-items: center;
+  /* margin-bottom: 10px; */
+}
+
+.step-heading > :nth-child(2) {
+  margin-top: -35%;
+}
+
+.step-number {
+  /* position: absolute;
+      left: 12px; */
+  /* width: 110px;
+      height: auto; */
+  width: 120px;
+}
+
+.step-1 {
+  width: 70px;
+}
+
+.dotted-lines {
+  width: 25%;
+}
+
+.dotted-line-step1 {
+  width: 40%;
+}
+
+.why-coinoswap-div-left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.benefit-one-img {
+  justify-content: center;
+}
+.benefit-one-img > :nth-child(1) {
+  width: 60%;
+}
+
+.why-coinoswap-div-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.why-coinoswap-para {
+  color: rgb(92, 90, 88);
+  margin: 1.5% 17%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.why-div h3 {
+  color: white;
+  font-family: basementgrotesque;
+  font-size: 20px;
+  padding-left: 7%;
+  margin-top: -7%;
+}
+
+.why-div {
+  padding: 0px;
+}
+
+.why-div p {
+  color: rgb(92, 90, 88);
+  padding-left: 7%;
+}
+
+.why-div-img > :nth-child(1) {
+  width: 65%;
+}
+
+.why-div-img > :nth-child(2) {
+  width: 35%;
+}
+
+.why-div-img {
+  display: flex;
+  align-items: center;
+}
+.why-div-img img {
+  padding: 10px;
+}
+
+.benefit-one-desc {
+  color: rgb(92, 90, 88);
+}
+
+.benefit-one-desc h3 {
+  font-size: 1.5rem;
+}
+
+.left-comma img {
+  width: 40px;
+  margin-left: -3%;
+}
+
+.left-comma {
+  display: flex;
+  justify-content: left;
+}
+
+.trustpilot-rating {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.trustpilot-rating img {
+  width: 170px;
+}
+
+.right-comma {
+  display: flex;
+  justify-content: right;
+}
+
+.right-comma img {
+  width: 40px;
+}
+
+.user-review-decription p {
+  margin: 0px;
+}
+
+.why-coinoswap-div-points-container {
+  display: flex;
+  padding: 0% 2%;
+}
+
+.basement-font {
+  font-family: basementgrotesque;
+}
+
+.freedom-txt {
+  font-family: basementgrotesque;
+  margin: 4% 0%;
+  color: rgb(110 97 97 / 90%);
+}
+
+.faq-heading {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.faq-home {
+  width: 75%;
+  margin: auto;
+}
+
+.faq-home button {
+  width: 100%;
+  color: black;
+  text-align: left;
+  background-color: white;
+  border-radius: 15px;
+  height: 60px;
+  font-weight: bold;
+  font-family: basementgrotesque;
+  border: unset;
+  margin: 10px 0px;
+}
+
+.faq-home button:hover {
+  background-color: rgb(240, 151, 13);
+  color: black;
+}
+
+.freedom-txt {
+  font-size: 1.7rem;
+}
+
+.faq-home button:focus {
+  background-color: rgb(240, 151, 13);
+  color: black;
+  box-shadow: unset;
+}
+
+.faq-home button:active {
+  background-color: rgb(240, 151, 13) !important;
+  color: black !important;
+  box-shadow: unset;
+}
+
+.faq-home-desc div {
+  background-color: transparent;
+  border: none;
+  color: rgb(92, 90, 88);
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.why-choose-heading {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.freedom-txt > :nth-child(1) {
+  display: block;
+}
+
+/*Media query*/
+/* Media query for small screnn 1024 screen*/
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  p.crypto_para {
+    width: 290px;
+  }
+  .dotted-line {
+    margin: -43px 0px 0px 0px;
+    width: 215px;
+    height: auto;
+  }
+  .Step_3 {
+    margin-left: -18px;
+  }
+  img.step3_line {
+    margin-left: -53px;
+  }
+  .Steps p {
+    width: 154px;
+  }
+}
+/* Media query for Tablet 768 screen*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .swap-crypto-section-mobile {
+    display: block;
+  }
+}
+/* Media query for mobile devices*/
+@media only screen and (max-width: 768px) {
+  .swap-crypto-section-mobile {
+    display: block;
+  }
+  .swap-crypto-section-mobile {
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .how-it-works-div {
+    padding: unset;
+  }
+  .swap-crypto-section-mobile {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .step-mobile p {
+    width: 292px !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .step-mobile p {
+    width: 254px !important;
+  }
+}
+/*Mobile section css*/
+/* Mobile-specific styles */
+/* Stack steps vertically */
+.steps-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+/* Each step styling */
+.step-mobile {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* Step heading styling */
+.step-heading-mobile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Step number positioning */
+.step-number-mobile {
+  position: absolute;
+  left: -5px;
+  width: 110px;
+}
+img.number_1_mobile {
+  width: 70px;
+  height: auto;
+  left: -12px;
+}
+/* Heading margin to avoid overlap */
+.step-heading-mobile h3 {
+  font-family: basementgrotesque;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  text-align: left;
+  color: #fff;
+  margin-left: 30px;
+}
+.step-mobile p {
+  width: 332px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  color: #a3a09e;
+  margin-left: 29px;
+}
+
+/* Dotted line styling*/
+img.dotted-line-mobile {
+  padding: 8px 0px 40px 0px;
+  width: 10px;
+  height: 181px;
+  margin-left: 27px;
+}
+img.dotted-lines-mobile {
+  width: 2px;
+  height: 130px;
+  margin: 15px 0px 37px 27px;
+}

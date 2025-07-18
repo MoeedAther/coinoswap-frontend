@@ -1,0 +1,303 @@
+
+.affiliate_heading{
+    font-family: basementgrotesque;
+    color: #fff;
+}
+.affiliate_para{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    color: #fff;
+}
+h1.program_heading {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+}
+h1.program_heading strong{
+    color: #F4A70B;
+}
+p.program_para {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: capitalize;
+}
+/* Affiliate_Program section start */
+section.Affiliate_section {
+    padding: 7% 0%;
+}
+/* Affiliate_Program section end */
+
+/*Affiliate_to_list section start*/
+.Affiliate-to-list h2 {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33.6px;
+    margin-bottom: 20px;
+}
+.Affiliate-to-list {
+    text-align: center;
+}
+  .Affiliate-to-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0px auto;
+    width: 628px;
+}
+.Affiliate-to-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19.2px;
+    color: #fff;
+    text-align: left;
+    font-family: basementgrotesque;
+}
+.Affiliate-to-list li img {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+}
+/*Affiliate_to_list section end*/
+
+/*Get_Started section start*/
+section.Get_Started_section {
+    padding: 7% 0%;
+}
+h1.Get_Started_heading {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33.6px;
+}
+p.Get_Started_para {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #C5C2BF;
+}
+/*Get_Started section end*/
+
+/*tools section styling start*/
+h1.tool_heading {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33.6px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tool_col {
+    display: flex;
+    padding: 20px;
+    align-items: start;
+    gap: 10px;
+}
+img.links_icon {
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+}
+h3.referral_heading {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33.6px;
+}
+.links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px 0px 20px 0px;
+}
+.link_points {
+    display: flex;
+    align-items: start;
+    background-color: #fff;
+    padding: 7px 12px;
+    border-radius: 100px;
+    height: 37px;
+}
+img.tool_star {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+p.tool_para {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: #000;
+}
+p.earn_incom {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: #C5C2BF;
+    width: 437px;
+}
+.crypto_blog {
+  width: 228px;
+  margin-bottom: 10px;
+}
+/*tools section styling end*/
+
+/*Form section start*/
+section.affiliate_form {
+  padding: 5% 0%;
+}
+.affiliate_main-heading {
+  margin-bottom: 12px;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33.6px;
+}
+.affiliate-subheading {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 13px;
+}
+.affiliate-form {
+  display: flex;
+  flex-direction: column;
+}
+.affiliate_form_row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+.form_group {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  position: relative;
+}
+.form-label {
+  position: absolute;
+  top: -10px;
+  left: 15px;
+  background-color: #111;
+  color: #fff;
+  padding: 0 5px;
+  z-index: 1;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.form-input {
+  padding: 12px;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  background-color: transparent;
+  color: #A3A09E;
+  height: 67px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.form-input::placeholder {
+  color: #888;
+}
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    gap: 0px;
+    border-radius: 4px;
+    background: #A3A09E;
+}
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: #C5C2BF;
+}
+.checkbox-label {
+  margin-left: 8px;
+  margin-top: 5px;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.checkbox-label a {
+  color: #F34900;
+  text-decoration: none;
+}
+.checkbox-label a:hover {
+  text-decoration: underline;
+}
+.submit_button {
+  padding: 12px 28px;
+  background-color: #F4A70B;
+  border: none;
+  color: #000;
+  border-radius: 12px;
+  cursor: pointer;
+  height: 60px;
+  width: 577px;
+  margin: 0px auto;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 25.6px;
+ font-family: basementgrotesque;
+}
+.submit_button:hover {
+  background-color: #e69500;
+}
+input[type=checkbox] {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #A3A09E;
+  border-radius: 4px;
+  background-color: #A3A09E;
+  cursor: pointer;
+  position: relative;
+}
+input[type=checkbox]:checked {
+  background-color: #A3A09E;
+  border-color: #A3A09E;
+}
+
+input[type=checkbox]::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  width: 4px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  display: none;
+}
+input[type=checkbox]:checked::before {
+  display: block; /* Checkmark when checked */
+}
+
+.affiliate-name-label{
+  text-align: left;
+  margin-top: 10px;
+}
+
+.affiliate-email-label{
+  text-align: left;
+  margin-top: 10px;
+}
+
+.affiliate-terms-label{
+  text-align: left;
+  margin-top: 10px;
+}
+
+/*Form section start*/

@@ -1,0 +1,369 @@
+.contact_heading{
+  font-family: basementgrotesque;
+    color: #fff;
+}
+.contact_para{
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  color: #FFFFFF;
+}
+
+.social-link-contact{
+  font-size: 140%;
+}
+
+/*Contact_CoinoSwap section styling start*/
+h4.contact_coinoSwap_heading {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  text-align: center;
+  padding: 7% 0%;
+}
+.contact_links {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+}
+h4.contact_coinoSwap_heading strong {
+  color: #F4A70B;
+}
+/*Contact_CoinoSwap section styling end*/
+
+/*Get In Touch section styling start*/
+.copied_heading {
+  padding-bottom: 20px;
+}
+.getIn_touch {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33.6px;
+  /* text-align: left; */
+}
+.copied_mail{
+font-size: 16px;
+font-weight: 800;
+line-height: 19.2px;
+text-align: left;
+color: #F4A70B;
+}
+img.copied_icon{
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.copy-message {
+  color: white;
+  font-size: 12px;
+  margin-top: 5px;
+  font-weight: bold;
+  display: block;
+  position: absolute;
+  top: -20px; /* Adjust positioning to show it above the icon */
+}
+.icon-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.Follow-icons {
+  display: flex;
+  align-items: start;
+  gap: 7.18px;
+}
+.Follow-icons img{
+  width: 100%;
+  height: auto;
+}
+a.youtube_icon img {
+  width: 108px;
+  margin: -19px 0px 0px -22px;
+}
+a.Facebook_icon img {
+  margin: 0px 0px 0px -28px;
+  width: 51px;
+}
+/*Get In Touch section styling end*/
+
+/*Contact Form section styling start */
+.form_col {
+  padding-right: 30px;
+}
+section.contact_form {
+  padding: 7% 0%;
+}
+.form-container {
+  width: 100%;
+}
+.contact-form_heading {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33.6px;
+  text-align: left;
+  margin-bottom: 6%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group {
+  flex: 1;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.form-group label {
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background-color: black;
+  padding: 0 5px;
+  font-size: 14px;
+  color: white;
+}
+input.userInfo_group {
+  width: 100%;
+  height: 67px;
+  border-radius: 12px;
+  color: #A3A09E;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+input, textarea, select {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: white;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #ccc;
+}
+textarea.message_group {
+  width: 100%;
+  height: 137.5px;
+  border-radius: 12px;
+  color: #A3A09E;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.submit-btn {
+  height: 60px;
+  padding: 12px 28px;
+  background-color: #F4A70B;
+  color: #100F0E;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  font-size: 16px;
+  font-family: basementgrotesque;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 25.6px;
+}
+.submit-btn:hover {
+  background-color: #ffaa00;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+}
+.form-group {
+  position: relative;
+  margin: 0% 0.5% 4% 0.5%;
+}
+.form-group label {
+  font-size: 16px;
+  color: #fff;
+  position: absolute;
+  top: -10px;
+  left: 15px;
+  background-color: hsl(30, 18%, 7%);
+  padding: 0 5px;
+  z-index: 1;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+/* select section styling start */
+
+.custom-select-container {
+  position: relative;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+.custom-label {
+  color: #fff;
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background-color: hsl(30, 18%, 7%);
+  padding: 0 5px;
+  z-index: 1;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.custom-select {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 10px 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  transition: border-color 0.3s;
+  height: 67px;
+}
+.selected-option {
+  flex-grow: 1;
+  color: #A3A09E;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.dropdown-icon {
+  margin-left: 10px;
+  width: 15px;
+  height: 12px;
+  cursor: pointer;
+}
+.select_dropdown li {
+  color: #5E5C5B;
+  list-style: none;
+  padding: 20px 20px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: left;
+  transition: background-color 0.3s;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.select_dropdown li:last-child {
+  border-bottom: none;
+}
+.custom-select.active + .select_dropdown {
+  display: block;
+}
+.custom-select-container {
+  position: relative;
+  width: 100%;
+}
+.select_dropdown {
+  display: block;
+  position: absolute;
+  top: 69%;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  z-index: 999;
+  border-radius: 12px;
+  padding: 0px;
+}
+.select_dropdown li:hover {
+  color: #F34900;
+  background-color: #F4A70B33;
+  font-weight: 700;
+}
+  /* select section styling end */
+input.order_group {
+  width: 100%;
+  height: 67px;
+  border-radius: 12px;
+  color: #A3A09E;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.order_group_container{
+  margin-top: 4%;
+}
+/*Google map styling start*/
+.map_col {
+  padding-left: 30px;
+}
+.map_heading {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33.6px;
+  margin-bottom: 6%;
+}
+.google_map {
+  overflow: hidden;
+  height: 0;
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  opacity: 0px;
+}
+.map-container {
+  width: 100%;
+}
+ .map-container {
+    height: 523px; /* Height for extra-large screens */
+  }
+
+/*Contact Information section styling start*/
+.info_sec {
+  padding: 6% 0% 3% 0%;
+}
+.contact_info_heading {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33.6px;
+  padding-bottom: 2%;
+}
+img.contact_info_img {
+  width: 48px;
+  height: 48px;
+}
+p.contact_info_para {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  padding-top: 1%;
+}
+h4.contact_info_adress {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 19.2px;
+  color: #F4A70B;
+}
+/*Contact Information section styling end*/

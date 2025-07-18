@@ -1,0 +1,293 @@
+
+body{
+    overflow-x: hidden;
+}
+/* coinoSwap_work styling start */
+.coinoSwap_work {
+    padding: 40px 0px 70px 0px;
+}
+.CoinoSwap_inner-content h2 {
+    color: #fff;
+    font-family: basementgrotesque;
+    font-size: 40px;
+    font-weight: 800;
+}
+strong.CoinoSwap_heading {
+    font-family: basementgrotesque;
+    font-size: 40px;
+    font-weight: 800;
+    color: #F4A70B;
+}
+p.CoinoSwap_para {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    color: #fff;
+}
+/* coinoSwap_work styling end */
+
+/* pair_amount styling start */
+.pairAmount_responsive_img img{
+    display: none;
+}
+.pair_amount_img img {
+    margin: 0px 0px 0px -50px;
+    padding-top: 20px;
+}
+.pair_amount_content {
+    text-align: start;
+    padding: 20% 0 0 8%;
+    position: relative;
+}
+.pair_amount_content .step_1 {
+    font-family: basementgrotesque;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    color: #fff;
+}
+h4.selected_amount {
+    font-family: basementgrotesque;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    color: #fff;
+}
+.pair_amount_content p {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: #A3A09E;
+    width: 498px;
+}
+p.pair_amount_para::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: transparent;
+    border: 2px solid #F4A70B;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 105%;
+    left: 7%;
+}
+.step_1::after {
+    content: "";
+    width: 65px;
+    height: 168px;
+    background-image: url(../images/number_1\ \(1\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: 49%;
+    left: 2%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+}
+.pair_amount{
+    position: relative;
+}
+/* pair_amount styling end */
+
+/* exchange_services styling start */
+
+.col-lg-6.exchange_services_img_rsponsive {
+    display: none;
+}
+.exchange_services {
+    margin-top: -4%;
+    position: relative;
+}
+
+.exchange_services_content {
+    color: #fff;
+    text-align: left;
+    padding: 19% 8% 0 6%;
+    position: relative;
+}
+h4.step_2 {
+    font-family: basementgrotesque;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+}
+h4.selected_services {
+    color: #fff;
+    font-family: basementgrotesque;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+}
+p.selected_services_para {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #A3A09E;
+    width: 514px;
+}
+.step_2::after {
+    content: "";
+    width: 102px;
+    height: 168px;
+    background-image: url(../images/2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: 43%;
+    left: 0%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+    z-index: 1;
+}
+/* exchange_services styling end */
+
+/* confirm_wallet_adress styling start */
+.confirm_wallet_adress {
+    margin-top: -7%;
+}
+.confirmWallet_responsive_img img{
+   display: none;
+}
+.confirm_wallet_img img {
+    padding:0px 20px;
+}
+.step_3::after {
+    content: "";
+    width: 109px;
+    height: 168px;
+    background-image: url(../images/3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: 60%;
+    left: 2%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+}
+p.confirm_wallet_para {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #A3A09E;
+    width: 518px;
+}
+.confirm_wallet_content{
+    text-align: start;
+    padding: 23% 0 0 8%;
+    color: #fff;
+    position: relative;
+} 
+/* confirm_wallet_adress styling end */
+
+.awaiting_payment_content {
+    padding: 26% 08% 0% 4%;
+    color: #fff;
+    text-align: left;
+    position: relative;
+}
+.awaiting_payment {
+    position: relative;
+    margin-top: -7%;
+}
+
+.step_4::after {
+    content: "";
+    width: 104px;
+    height: 168px;
+    background-image: url(../images/4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: 71%;
+    left: -3%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+}
+.awaiting_payment_para {
+    padding: 0% 8% 0% 0%;
+    width: 480px;
+    height: 66px;
+    color: #A3A09E;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+/* awaiting_payment styling end */
+
+/* processing_swap styling start */
+
+.processing_swap {
+    margin-top: -6%;
+}
+.processingSwap_responsiv_img{
+    display: none;
+}
+
+.step_5::after {
+    content: "";
+    width: 110px;
+    height: 168px;
+    background-image: url(../images/5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: 68%;
+    left: 2%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+}
+.step_5::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: transparent;
+    border: 2px solid #F4A70B;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 34%;
+    left: 6.5%;
+}
+.processing_swap_content{
+    text-align: start;
+    padding: 28% 0 0 8%;
+    color: #fff;
+    position: relative;
+} 
+/* processing_swap styling end */
+
+/* Dottid lines styling start */
+.dottied_img_1 {
+    margin: -7% 0% 0% 3.5%;
+}
+.dottied_img_1 img {
+    width: 88.5%;
+}
+.dottied_img_2 img {
+    width: 88.5%;
+}
+.dottied_img_2 {
+    margin: -3% 0% 0% 3.5%;
+}
+.dottied_img_3 {
+    margin: -7% 0% 0% 3.5%;
+}
+.dottied_img_3 img {
+    width: 85.5%;
+}
+.dottied_img_4 {
+    margin: -7% 0% 0% 3.5%;
+}
+.dottied_img_4 img {
+    width: 85.5%;
+}
+/* Dottid lines styling end */

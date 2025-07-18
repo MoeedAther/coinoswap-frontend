@@ -1,0 +1,132 @@
+.deposit_extra_id_progress_page {
+  margin-top: 40px;
+}
+
+.recipient_add_progress_page {
+  margin-top: 40px;
+}
+
+.three-and-four-step > :nth-child(2) > :nth-child(2) {
+  display: none;
+}
+
+.prgress_page_information_container {
+  background-color: white;
+}
+
+.you_send_progress_page p,
+.you_receive_progress_page p,
+.exchange_type_progress_page p,
+.exchange_partner_progress_page p {
+  color: #7a7877;
+  margin-bottom: 5px;
+}
+
+.you_send_progress_page span,
+.you_receive_progress_page span {
+  font-family: basementgrotesque;
+  font-weight: bold;
+  font-size: 23px;
+  color: #f4a70c;
+  margin-top: 20px;
+}
+
+.prgress_page_information_container {
+  padding: 25px 35px;
+  margin: 0px 30px;
+  border-radius: 20px;
+}
+
+.submit_deposit_address-width_progress_page {
+  width: 400px;
+  overflow: hidden;
+}
+
+.recipient-address-submit-width-progress-width {
+  width: 400px;
+  overflow: hidden;
+}
+
+.recp-add {
+  color: #7a7877;
+}
+
+/* Media query for Tablet 768 screen*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .progress-div-processing {
+    width: 80%;
+    margin: auto;
+  }
+  .progress-div-processing-status > :nth-child(1) {
+    margin-left: 35px;
+  }
+  .progress-div-processing-status {
+    width: 100%;
+  }
+  .progress-div-processing-status > :nth-child(3) {
+    margin-right: 55px;
+  }
+}
+/* Media query for mobile devices*/
+@media only screen and (max-width: 768px) {
+  .three-and-four-step > :nth-child(2) > :nth-child(1) {
+    display: none;
+  }
+
+  .three-and-four-step > :nth-child(2) > :nth-child(2) {
+    display: block;
+  }
+
+  .deposit-info {
+    padding: 25px 20px;
+  }
+
+  .recp-add-container-progress-page {
+    margin-top: 50px;
+  }
+
+  .exchange_type_progress_page,
+  .exchange_partner_progress_page {
+    margin-top: 50px;
+  }
+
+  .exchange_type_progress_page,
+  .exchange_partner_progress_page {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .prgress_page_information_container {
+    padding: 25px 20px;
+  }
+
+  .progress-div-processing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 60px 11% 0% 11%;
+  }
+
+  .progress-div-processing-status > :nth-child(1) {
+    margin-left: 50px;
+    font-size: 12px;
+  }
+  .progress-div-processing-status > :nth-child(2) {
+    color: #f4a70c;
+    font-weight: 700;
+    margin-left: -43px;
+    font-size: 12px;
+  }
+  .progress-div-processing-status {
+    width: 100%;
+  }
+  .progress-div-processing-status > :nth-child(3) {
+    margin-right: 68px;
+    font-size: 12px;
+  }
+  .prgress_page_information_container {
+    margin: 0px 25px;
+  }
+}

@@ -1,0 +1,59 @@
+.enter-address-text-div {
+    text-align: center;
+    margin-top: 50px !important;
+    margin-bottom: 60px;
+}.howitworks-link{
+    color: #F0970D;
+    text-decoration: none;
+}
+
+.howitworks-link:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.eta-kyc-sec{
+    margin-top: 40px;
+}
+
+.deposit-eta span{
+    color: red;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.deposit-eta img{
+    width: 25px;
+}
+
+.deposit-eta{
+    margin-top: 10px;
+}
+
+.deposit-kyc img{
+    width: 20px;
+}
+
+.deposit-kyc span{
+    font-weight: bold;
+    margin-left: 10px;
+    font-family: basementgrotesque;
+    color: white;
+    font-size: 14px;
+}
+
+.deposit-kyc{
+    margin-top: 10px;
+}
+
+.chain-name-deposit{
+    color:red;
+    font-size: 11px;
+}
+
+.you-receive-loadingdots{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px; 
+    margin-top: 10px;
+}

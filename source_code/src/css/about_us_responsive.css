@@ -1,0 +1,297 @@
+/* Media query for Extra large screen above 1600*/
+@media only screen and (min-width: 1601px) {
+    .roadmap_Mob_img {
+        display: none;
+    }
+    .about_CoinoSwap_inner-content h2 {
+        font-size: 50px;
+        padding-bottom: 0.5%;
+    }
+    p.about_CoinoSwap_para {
+        font-size: 25px;
+        line-height: 34px;
+    }
+    h4.our_mission_heading {
+        font-size: 45px;
+    }
+    p.our_mission_para {
+        font-size: 27px;
+        font-weight: 400;
+        line-height: 35px;
+        text-align: left;
+        padding: 0% 7%;
+    }
+    .aggregate::before {
+        width: 152px;
+        height: 152px;
+        position: absolute;
+        top: -12%;
+        left: 6%;
+        margin-left: 20px;
+    }
+    .platform_ranks::before {
+        width: 152px;
+        height: 152px;
+        position: absolute;
+        top: -10%;
+        left: 5%;
+        margin-left: 20px;
+    }
+    .we_handle::before {
+        width: 152px;
+        height: 152px;
+        position: absolute;
+        top: -8%;
+        left: 6%;
+        margin-left: 20px;
+    }
+    .at_Coinoswap::before {
+        width: 152px;
+        height: 152px;
+        position: absolute;
+        top: -8%;
+        left: 6%;
+        margin-left: 20px;
+    }
+    h4.why_use_coinoSwap_heading {
+        font-size: 45px;
+        line-height: 50px;
+        padding-bottom: 22px;
+    }
+    p.why_use_coinoSwap_para {
+        width: 55%;
+        font-size: 25px;
+        line-height: 31px;
+    }
+
+    .best_rates_img {
+        width: 32px;
+        height: 32px;
+    }
+    .no_registration_item {
+        margin: -5px 0px 0px -370px;
+    }
+    .exchange_item {
+        margin: -11px 0px 0px -195px;
+    }
+    h4.roadmap_heading {
+        font-size: 45px;
+        font-weight: 800;
+        line-height: 33.6px;
+        padding-bottom: 2%;
+    }
+    .contact_info_heading {
+        font-size: 45px;
+    }    
+    img.contact_info_img {
+        width: 68px;
+        height: 68px;
+    }
+    p.contact_info_para {
+        font-size: 25px;
+    }
+    h4.contact_info_adress {
+        font-size: 25px;
+        font-weight: 800;
+        line-height: 19.2px;
+        color: #F4A70B;
+        padding-top: 0.5%;
+    }
+}
+/* Media query for small screnn 1440 screen*/
+@media only screen and (min-width: 1440px) and (max-width: 1440px) {
+    .roadmap_Mob_img {
+        display: none;
+    }
+    .buy_crypto_item {
+        width: 50%;
+        font-size: 14px;
+    }
+    .no_registration_item {
+        margin: -10px 0px 0px -176px;
+    }
+    .exchange_item {
+        margin: -11px 0px 0px -67px;
+    }
+}
+/* Media query for small screnn 1024 screen*/
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    .roadmap_Mob_img {
+        display: none;
+    }
+
+    .no_registration_item {
+       margin: 0px;
+    }
+    .no_registration_item {
+        margin: -12px 0px 0px -99px;
+    }
+    .exchange_item {
+        margin: -12px 0px 0px -30px;
+    }
+}
+/* Media query for Tablet 768 screen*/
+@media only screen and (min-width: 768px) and (max-width:1023px){
+    .roadmap_desk_img {
+        display: none;
+    }
+    .roadmap_heading{
+        display: none;
+    }
+    h4.our_mission_heading {
+        padding-top: 10%;
+    }
+    .why_use_CoinoSwap_img img {
+        width: 100%;
+        height: auto;
+        padding: 16% 0% 7% 0%;
+    }
+    p.about_CoinoSwap_para {
+        width: 511px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+        margin: 0px auto;
+    }
+    p.our_mission_para {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+        text-align: left;
+        padding: 4% 3.5%;
+    }
+    .aggregate::before {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 9%;
+        left: 1.5%;
+        margin-left: 20px;
+    }
+    .platform_ranks::before {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 6%;
+        left: 1.5%;
+        margin-left: 20px;
+    }
+    .platform_ranks::before {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 16%;
+        left: 2.5%;
+        margin-left: 20px;
+    }
+    .we_handle::before {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 13%;
+        left: 2.5%;
+        margin-left: 20px;
+    }
+    .we_handle::before {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 26%;
+        left: 2.5%;
+        margin-left: 20px;
+    }
+    .at_Coinoswap::before {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 23%;
+        left: 2.5%;
+        margin-left: 20px;
+    }
+    p.why_use_coinoSwap_para {
+        width: 640px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+        text-align: left;
+    }
+    .buy_crypto_item {
+        width: 100%;
+    }
+
+    .no_registration_item {
+        margin:0px;
+    }
+    .exchange_item {
+        margin: 0px;
+    }
+    .infinite_swaps {
+        margin:0px;
+    }
+    .roadmap_section {
+        padding: 12% 0%;
+    }
+}
+/* Media query for mobile devices*/
+@media only screen and (max-width: 767px){
+    .roadmap_desk_img {
+        display: none;
+    }
+    .roadmap_heading{
+        display: none;
+    }
+    p.about_CoinoSwap_para {
+        width: 100%;
+    }
+    p.our_mission_para {
+        padding: 13% 7%;
+    }
+    .aggregate::before {
+        position: absolute;
+        top: 19%;
+        left: 5%;
+        margin-left: 20px;
+    }
+    .platform_ranks::before {
+        position: absolute;
+        top: 14%;
+        left: 6%;
+        margin-left: 20px;
+    }
+    .we_handle::before {
+        position: absolute;
+        top: 29%;
+        left: 6%;
+        margin-left: 20px;
+    }
+    .at_Coinoswap::before {
+        position: absolute;
+        top: 25%;
+        left: 6%;
+        margin-left: 20px;
+    }
+    p.why_use_coinoSwap_para {
+        width: 100%;
+    }
+
+    .no_registration_item {
+        margin: 0px;
+    }
+    .exchange_item {
+        margin: 0px;
+    }
+    .infinite_swaps {
+        margin:0px;
+    }
+    h4.our_mission_heading {
+        padding: 20% 0% 5% 0%;
+    }
+    .why_use_CoinoSwap_img img {
+        width: 100%;
+        height: auto;
+        padding: 25% 0%;
+    }
+    .info_sec {
+        padding: 20% 0%;
+    }
+}

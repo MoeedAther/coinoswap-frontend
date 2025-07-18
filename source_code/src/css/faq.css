@@ -1,0 +1,259 @@
+.faq_heading {
+  font-family: basementgrotesque;
+  color: #fff;
+}
+.faq_para {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #a3a09e;
+}
+/*Frequently Asked Questions section styling start*/
+.asked_questions {
+  padding: 7% 0%;
+}
+.asked_questions_inner-content h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+}
+strong.asked_questions_heading {
+  color: #f4a70b;
+}
+/*Frequently Asked Questions section styling end*/
+/*content section styling start*/
+.content_section {
+  padding: 0% 1.5%;
+  /* display: none */
+}
+.about_coinoswap_item_img img {
+  width: 28px;
+  height: 28px;
+}
+.about_coinoswap_item {
+  display: flex;
+  align-items: start;
+  margin-bottom: 10%;
+  gap: 2%;
+  background-color: #fff;
+  padding: 1.5% 5%;
+  width: 888px;
+  border-radius: 20px;
+  padding-top: 2.5%;
+}
+.about_coinoswap_item-heading {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33.6px;
+  font-family: basementgrotesque;
+}
+
+.about-coinoswap {
+  padding: 20px;
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.faq-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.faq-item {
+  display: flex;
+  align-items: start;
+  margin-bottom: 5%;
+  gap: 3%;
+}
+
+.faq_img img {
+  height: 60px;
+  width: 60px;
+}
+.faq-content h3 {
+  margin: 0 0 10px;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33.6px;
+  text-transform: capitalize;
+}
+
+.faq-content p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 800px;
+  text-transform: capitalize;
+}
+
+.faq-item:not(:last-child) {
+  border-bottom: 1px solid #444;
+  padding-bottom: 20px;
+}
+/*content section styling end*/
+
+h2.content_nav_heading {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33.6px;
+}
+.content_nav {
+  width: 100%;
+  z-index: 1000;
+  padding-left: 3%;
+}
+.content_nav nav#navbar {
+  margin: 0% 0% 0% 0.5%;
+}
+.content_nav .nav-link {
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+  color: #a3a09e;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.content_nav .nav-link.active-context {
+  font-weight: bold;
+}
+.content_nav .nav-icon {
+  margin-right: 2.5%;
+  width: 20px;
+  height: 20px;
+}
+/* Default: all icons in grayscale */
+.content_nav .nav-link img {
+  filter: grayscale(100%); /* Grayscale by default */
+  transition: filter 0.3s ease-in-out; /* Smooth transition when active */
+}
+
+/* Remove grayscale for the active link */
+.content_nav .nav-link.active-context img {
+  filter: grayscale(0%); /* Original color (red) */
+}
+
+/* Active state: yellow line before the active link */
+.content_nav .nav-link.active-context::before {
+  background-color: #fd8008; /* Yellow color for active link */
+}
+
+.content_nav .nav-link:hover::before {
+  background-color: #fd8008; /* Yellow line on hover */
+}
+
+.content_nav .nav-link:hover img {
+  filter: grayscale(0%); /* Remove grayscale on hover */
+}
+/* Default state: gray line before all links */
+.content_nav .nav-link {
+  position: relative; /* Make sure the parent has a relative position */
+  padding-left: 30px; /* Adjust padding to avoid overlap with the line */
+}
+
+.content_nav .nav-link::before {
+  content: "";
+  height: 28px;
+  width: 6px;
+  background-color: gray; /* Gray line by default */
+  position: absolute;
+  left: 0; /* Adjust this value to fit the layout */
+  top: 58%; /* Vertically center the line */
+  transform: translateY(-50%); /* Center it vertically relative to the text */
+  transition: all 0.3s ease-in-out; /* Smooth transition */
+  pointer-events: none;
+  border-radius: 4px;
+}
+
+a:active {
+  text-decoration: none !important;
+  /* display: inline-block; */
+  /* color: inherit; */
+}
+
+/*  */
+/* Wrapper & container */
+.nl-wrapper {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.nl-container {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+/* Heading *//* Nav link container */
+.nl-nav {
+  display: flex;
+}
+
+.nl-links {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* background-color: red; */
+  padding-top: 0;
+}
+
+/* Link styles */
+.nl-link {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #a3a09e;
+  text-decoration: none;
+  padding: 10px 0 10px 15px;
+  padding-top: 0px;
+  margin-bottom: 4px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-left: 2px dashed #41403f;
+  text-decoration: none;
+}
+
+/* Icon styles */
+.nl-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+/* Hover effects */
+.nl-link:hover {
+  color: #a3a09e;
+}
+
+.nl-link:hover .nl-icon {
+  filter: grayscale(0%);
+}
+
+/* Active link styles */
+.nl-active {
+  color: white;
+}
+
+.nl-active .nl-icon {
+  filter: grayscale(0%) brightness(1.5) hue-rotate(30deg) saturate(2);
+}
+
+/* Active orange line */
+.nl-active::before {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: 0px;
+  bottom: 10px;
+  width: 3px;
+  background-color: #ff8c00;
+  border-radius: 2px;
+}
+

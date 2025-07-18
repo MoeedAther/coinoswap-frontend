@@ -1,0 +1,58 @@
+/* Media query for Tablet 768 screen*/
+@media only screen and (min-width: 768px) and (max-width:1023px){
+    .policy_content p {
+        width: 640px;
+    }
+}
+/* Media query for mobile devices*/
+@media only screen and (max-width: 767px){
+    .policy_content h4 {
+        width: 372px;
+    }
+    .policy_content p {
+        width: 372px;
+    }
+}
+/* Media query for small mobile devices*/
+@media only screen and (max-width: 375px){
+    .policy_content p {
+        width: 345px;
+    }
+    .effective_date {
+        margin: 40px auto;
+        height: 42px;
+        width: 89%;
+    }
+    span.date_content {
+        color: #F4A70B;
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 25.6px;
+    }
+    section.policy_points {
+        padding: 0% 2%;
+    }
+    h1.point1_heading {
+        font-size: 25px;
+    }
+}
+/* Media query for E-small mobile devices*/
+@media only screen and (max-width: 320px){
+    .policy_content h4 {
+        width: 100%;
+        padding: 0% 2%;
+    }
+    .policy_content p {
+        width: 292px;
+        font-size: 16px;
+    }
+    span.date_content {
+        color: #F4A70B;
+        font-size: 12px;
+        font-weight: 800;
+        line-height: 25.6px;
+    }
+    h1.point1_heading {
+        font-size: 20px;
+    }
+}

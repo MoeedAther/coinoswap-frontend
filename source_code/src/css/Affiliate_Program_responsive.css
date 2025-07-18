@@ -1,0 +1,142 @@
+/* Media query for small screnn 1024 screen*/
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    p.earn_incom {
+        width: 100%;
+    }
+}
+/* Media query for mobile devices*/
+@media only screen and (max-width: 768px){
+    section.Affiliate_point_section {
+        padding: 80px 0px;
+    }
+    .Affiliate-to-list h2 {
+        margin-bottom: 30px;
+        text-align: left;
+    }
+    .Affiliate-to-list ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0px auto;
+        width: 100%;
+    }
+    .Affiliate-to-list li {
+        margin-bottom: 20px;
+    }
+    p.Get_Started_para {
+        width: 372px;
+        margin: 0px auto;
+    }
+    section.tools_section {
+        padding: 80px 0px;
+    }
+    .tool_col {
+        display: flex;
+        padding: 30px 0px;
+        align-items: start;
+        gap: 10px;
+    }
+    img.links_icon {
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+    }
+    p.earn_incom {
+        width: 100%;
+    }
+    .affiliate_main-heading {
+        margin-bottom: 37px;
+    }
+    .form_group {
+        display: flex;
+        width: 100%;
+    }
+    .affiliate_form_row {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    section.affiliate_form {
+        padding: 0% 0% 15% 0%;
+    }
+    .submit_button {
+        height: 60px;
+        width: 100%;
+    }
+    .form-label {
+        background-color: #25140d;
+    }
+
+    .affiliate-name-label{
+        text-align: left;
+        font-size: 13px;
+        margin-top: 10px;
+      }
+      
+      .affiliate-email-label{
+        text-align: left;
+        font-size: 13px;
+        margin-top: 10px;
+      }
+      
+      .affiliate-terms-label{
+        text-align: left;
+        font-size: 13px;
+        margin-bottom: 30px;
+      }
+}
+/* Media query for small mobile devices*/
+@media only screen and (max-width: 375px){
+    p.Get_Started_para {
+        width: 100%;
+        margin: 0px auto;
+    }
+    p.tool_para {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.36px;
+        text-align: left;
+        color: #000;
+    }
+    .checkbox-group {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        color: #C5C2BF;
+        margin: -18px 0px 15px 0px;
+    }
+    .checkbox-label {
+        margin-left: 8px;
+        margin-top: 19px;
+        font-size: 12px;
+    }
+}
+/* Media query for E-small mobile devices*/
+@media only screen and (max-width: 320px){
+    .link_points {
+        display: flex;
+        align-items: start;
+        background-color: #fff;
+        padding: 7px 7px;
+        border-radius: 100px;
+        height: 37px;
+    }
+    img.tool_star {
+        width: 20px;
+        height: 20px;
+        margin-right: 7px;
+    }
+    p.tool_para {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 19.36px;
+        text-align: left;
+        color: #000;
+    }
+    .form-label {
+        position: absolute;
+        top: -10px;
+        left: 15px;
+        background-color: #79540db3;
+    }
+}

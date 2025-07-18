@@ -1,0 +1,106 @@
+.policy_heading{
+    font-family: basementgrotesque;
+    color: #fff;
+}
+.policy_para{
+    color:#A3A09E ;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+/*Privacy_policy_section styling start */
+.privacy_policy_section {
+    padding: 7% 0%;
+}
+.policy_content {
+    text-align: center;
+}
+.policy_content h4{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+}
+strong.policy_yellow {
+    color: #F4A70B;
+}
+.policy_content p{
+    margin: 0px auto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #fff;
+    width: 965px;
+}
+.effective_date img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+span.date_content {
+    color: #F4A70B;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 25.6px;
+}
+.effective_date {
+    margin: 40px auto;
+    height: 42px;
+    width: 358px;
+    border: 0.4px solid #F4A70B;
+    padding: 8px 15px;
+    border-radius: 100px;
+    background-color: transparent;
+}
+/*Privacy_policy_section styling end*/
+
+/*policy_points_section styling start */
+.points_section {
+    padding-top: 28px;
+}
+h1.point1_heading {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33.6px;
+}
+span.list_point {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: #A3A09E;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    margin-left: -19px;
+}
+ul.point_list {
+    margin-left: -17px;
+}
+ul.point_list li {
+    color: #C5C2BF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+ul.point_list strong {
+    color: #fff;
+    font-weight: 700;
+}
+strong.are_cookies {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+span.list_point a {
+    text-decoration: none;
+    color: #F4A70B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+span.list_point a:hover {
+    color: yellow;
+}
+/*policy_points_section styling start */

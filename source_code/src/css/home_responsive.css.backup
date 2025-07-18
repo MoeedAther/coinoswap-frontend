@@ -1,0 +1,278 @@
+.exchangebox-wrapper {
+  position: relative;
+  z-index: 99;
+  width: 100%;
+}
+.why-choose-us-img-mobile {
+  margin-top: 7%;
+  padding: 0% 1.5%;
+}
+
+@media screen and (max-width: 769px) {
+  .freedom-txt {
+    font-size: 15px !important;
+  }
+
+  .why-coinoswap-div-points-container {
+    display: block;
+  }
+
+  .benefit-one-desc h3 {
+    font-size: 1.5rem !important;
+    margin-top: 100px;
+  }
+
+  .benefit-one-img > :nth-child(1) {
+    width: 90% !important;
+  }
+
+  .why-coinoswap-para {
+    margin: 1.5% 1% !important;
+  }
+
+  .user-review-decription {
+    width: 80% !important;
+  }
+
+  .review-carousal-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .why-coinoswap-div-left {
+    width: 100% !important;
+  }
+
+  .why-coinoswap-div-right {
+    width: 100% !important;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    height: 40px !important;
+    width: 40px !important;
+  }
+
+  .carousel-control-next {
+    right: 0vh !important;
+    top: 2vh !important;
+  }
+
+  .carousel-control-prev {
+    top: 2vh !important;
+    left: 72vh !important;
+  }
+
+  .faq-home button {
+    font-size: 15px !important;
+  }
+
+  .faq-heading h2 {
+    font-size: 2rem !important;
+    text-align: center;
+  }
+
+  .freedom-txt {
+    font-size: 20px !important;
+  }
+
+  .why-choose-mobile {
+    display: block !important;
+  }
+
+  .why-choose-desktop {
+    display: none !important;
+  }
+
+  .why-div-img > :nth-child(1) {
+    width: 55% !important;
+  }
+
+  .vertical-bar {
+    width: 40px !important;
+    margin-left: 25%;
+  }
+
+  .why-choose-heading h2 {
+    font-size: 2rem !important;
+  }
+
+  .why-div h3 {
+    font-size: 1.5rem !important;
+    margin-top: -10% !important;
+  }
+
+  .why-choose-heading {
+    margin-bottom: 40px !important;
+  }
+
+  .why-coinoswap-div {
+    display: none !important;
+  }
+
+  .why-coinoswap-div-mobile {
+    display: block !important;
+  }
+
+  .why-coinoswap-heading {
+    font-size: 2rem;
+  }
+
+  .benefit-one-img {
+    display: flex !important;
+    justify-content: center;
+    margin-top: 50px !important;
+  }
+  .why-coinoswap-div-points-container {
+    display: block !important;
+  }
+
+  .faq-home {
+    width: 100% !important;
+  }
+}
+
+/* Very small screens (e.g., phones) */
+@media (max-width: 440px) {
+  .freedom-txt {
+    font-size: 15px !important;
+  }
+
+  .why-coinoswap-div-points-container {
+    display: block;
+  }
+
+  .benefit-one-desc h3 {
+    font-size: 1.1rem !important;
+    margin-top: 100px;
+  }
+
+  .benefit-one-img > :nth-child(1) {
+    width: 90% !important;
+  }
+
+  .why-coinoswap-para {
+    margin: 1.5% 1% !important;
+  }
+
+  .user-review-decription {
+    width: 80% !important;
+  }
+
+  .review-carousal-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .trustpilot-rating img {
+    width: 130px !important;
+  }
+
+  .why-coinoswap-div-left {
+    width: 100% !important;
+  }
+
+  .why-coinoswap-div-right {
+    width: 100% !important;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    height: 40px !important;
+    width: 40px !important;
+  }
+
+  .user-dp {
+    width: 65px !important;
+    height: 65px !important;
+  }
+
+  .left-comma img {
+    width: 30px !important;
+  }
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    width: 15px !important;
+  }
+
+  .right-comma img {
+    width: 30px !important;
+  }
+
+  .carousel-item {
+    height: 65vh !important;
+  }
+
+  .carousel-control-next {
+    right: 0vh !important;
+    top: 2vh !important;
+  }
+
+  .carousel-control-prev {
+    top: 2vh !important;
+    left: 33vh !important;
+  }
+
+  .faq-home button {
+    font-size: 12px !important;
+  }
+
+  .faq-heading h2 {
+    font-size: 1.5rem !important;
+    text-align: center;
+  }
+
+  .why-choose-mobile {
+    display: block !important;
+  }
+
+  .why-choose-desktop {
+    display: none !important;
+  }
+
+  .why-div-img > :nth-child(1) {
+    width: 55% !important;
+  }
+
+  .why-div {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+
+  .vertical-bar {
+    width: 40px !important;
+    margin-left: 21%;
+  }
+
+  .why-choose-heading h2 {
+    font-size: 1.5rem !important;
+  }
+
+  .why-choose-heading {
+    margin-bottom: 40px !important;
+  }
+
+  .why-coinoswap-div {
+    display: none !important;
+  }
+
+  .why-coinoswap-div-mobile {
+    display: block !important;
+  }
+
+  .why-coinoswap-heading {
+    font-size: 1.5rem;
+  }
+
+  .benefit-one-img {
+    display: flex !important;
+    justify-content: center;
+    margin-top: 50px !important;
+  }
+  .why-coinoswap-div-points-container {
+    display: block !important;
+  }
+
+  .faq-home {
+    width: 100% !important;
+  }
+}

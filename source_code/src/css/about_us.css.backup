@@ -1,0 +1,229 @@
+
+/*About_CoinoSwap section styling start*/
+.abou_heading{
+    font-family: basementgrotesque;
+    color: #fff;
+}
+.about_para{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    color: #A3A09E;
+}
+.about_CoinoSwap {
+    padding: 7% 0%;
+}
+.about_CoinoSwap_inner-content h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    text-align: center;
+}
+strong.about_CoinoSwap_heading {
+    color: #F4A70B;
+}
+p.about_CoinoSwap_para {
+    width: 800px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    margin: 0px auto;
+}
+/*About_CoinoSwap section styling end*/
+
+/*Our_mission section styling start*/
+h4.our_mission_heading {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33.6px;
+}
+p.our_mission_para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    padding: 0% 7%;
+}
+.our_mission_point {
+    padding: 7% 0%;
+    position: relative;
+}
+.aggregate::before {
+    content: "";
+    width: 80px;
+    height: 80px;
+    background-image: url(../images/Aggregate_Icon\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: -14%;
+    left: 5%;
+    transform: translateY(-50%);
+    margin-left: 20px;
+}
+.platform_ranks::before {
+    content: "";
+    width: 80px;
+    height: 80px;
+    background-image: url(../images/Platform_Icon\ 2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: -14%;
+    left: 5%;
+    transform: translateY(-50%);
+    margin-left: 20px;
+}
+.we_handle::before {
+    content: "";
+    width: 80px;
+    height: 80px;
+    background-image: url(../images/Handle_Icon\ 3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: -14%;
+    left: 5%;
+    transform: translateY(-50%);
+    margin-left: 20px;
+} 
+.at_Coinoswap::before {
+    content: "";
+    width: 80px;
+    height: 80px;
+    background-image: url(../images/Coinoswap_Icon\ 4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: -14%;
+    left: 5%;
+    transform: translateY(-50%);
+    margin-left: 20px;
+} 
+/*Our_mission section styling end*/
+
+/*why_use_CoinoSwap section styling start*/
+.why_use_CoinoSwap_img img {
+    width: 100%;
+    height: auto;
+}
+.why_use_CoinoSwap_inner-content {
+    align-items: center;
+}
+h4.why_use_coinoSwap_heading {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33.6px;
+}
+p.why_use_coinoSwap_para {
+    width: 440px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+}
+.why_use_coinoSwap_point {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: basementgrotesque;
+    margin-left: 30px;
+}
+
+.first-feature-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: basementgrotesque;
+}
+
+.why_use_coinoSwap_point{
+display: flex;
+margin-left: -30px;
+}
+
+.buy_crypto_item {
+    width: 50%;
+} 
+  .best_rates_img {
+    width: 28px;
+    height: 28px;
+    margin-right: 12px; /* Space between the image and text */
+  }
+  .no_registration_item {
+    margin: -10px 0px 0px -215px;
+}
+.exchange_item {
+    margin: -11px 0px 0px -110px;
+}
+.infinite_swaps {
+    margin: -10px 0px 0px 5px;
+}
+.why_use_coinoSwap_content {
+    padding-left: 1.5%;
+}
+/*why_use_CoinoSwap section styling end*/
+
+/*Roadmap section start*/
+.row.roadmap_Mob_img {
+    display: none;
+}
+.roadmap_section {
+    padding: 7% 0%;
+}
+img.roadmap_img {
+    width: 100%;
+    height: auto;
+    padding: 0% 2%;
+}
+h4.roadmap_heading {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33.6px;
+    padding-bottom: 2%;
+}
+/*Roadmap section end*/
+
+/*Contact Information section styling start*/
+
+.contact_info_heading {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33.6px;
+    padding-bottom: 2%;
+}
+img.contact_info_img {
+    width: 48px;
+    height: 48px;
+}
+p.contact_info_para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    padding-top: 1%;
+}
+h4.contact_info_adress {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19.2px;
+    color: #F4A70B;
+}
+/*Contact Information section styling end*/

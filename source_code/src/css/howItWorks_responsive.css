@@ -1,0 +1,1089 @@
+/* Media query for Extra large screen above 1600*/
+    @media only screen and (min-width: 1601px) {
+    .pair_amount_img img {
+        width: 100%;
+        height: auto;
+    }
+    .pair_amount_content .step_1 {
+        font-size: 27px;
+    }
+    h4.selected_amount {
+        font-size: 27px;
+        padding: 10px 0px;
+    }
+    .confirm_wallet_img img {
+        width: 100%;
+        height: auto;
+        margin: 0px 0px 0px -52px;
+    }
+    .pair_amount_content p {
+        font-size: 23px;
+        text-align: left;
+        color: #A3A09E;
+        width: 642px;
+        line-height: 35px;
+    }  
+    .exchange_services_img img {
+        height: auto;
+        width: 100%;
+        margin-left: 2%;
+    }
+    h4.step_2 {
+        font-size: 27px;
+    }
+    h4.selected_services {
+        font-size: 27px;
+        padding: 10px 0px;
+    }
+    .step_1::after {
+        content: "";
+        width: 195px;
+        height: 195px;
+        top: 35%;
+        left: 0%;
+    }
+    p.selected_services_para {
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        color: #A3A09E;
+        width: 514px;
+    }
+    p.selected_services_para{
+        font-size: 23px;
+        text-align: left;
+        color: #A3A09E;
+        width: 642px;
+        line-height: 35px;
+    }    
+    .step_2::after {
+        content: "";
+        width: 195px;
+        height: 195px;
+        background-image: url(../images/2.png);
+        top: 30%;
+        left: 3%;
+    }
+    .exchange_services_content {
+        padding: 19% 8% 0 12%;
+    }
+    p.pair_amount_para::after {
+        width: 18px;
+        height: 18px;
+        top: 115%;
+        left: 6.5%;
+    }
+    p.pair_amount_para::after {
+        width: 14px;
+        height: 14px;
+        top: 104%;
+        left: 7%;
+    }
+    h4.step_3 {
+        font-size: 27px;
+        font-weight: 800;
+    }
+    p.confirm_wallet_para{
+        font-size: 23px;
+        text-align: left;
+        color: #A3A09E;
+        width: 642px;
+        line-height: 35px;
+    } 
+    .awaiting_payment_img img {
+        width: 100%;
+        height: auto;
+        margin-left: 3%;
+    }
+    p.awaiting_payment_para{
+        font-size: 23px;
+        text-align: left;
+        color: #A3A09E;
+        width: 642px;
+        line-height: 35px;
+    } 
+    .awaiting_payment_content {
+        padding: 38% 08% 0% 11%;
+        color: #fff;
+        text-align: left;
+        position: relative;
+    }
+    .step_4::after {
+        content: "";
+        width: 195px;
+        height: 195px;
+        background-image: url(../images/4.png);
+        top: 70%;
+        left: 2%;
+    }
+    h4.step_1.step_5{
+        font-size: 27px;
+        font-weight: 800;
+    }
+    .pair_amount_content {
+        text-align: start;
+        padding: 20% 0 0 8%;
+        position: relative;
+    }
+    .dottied_img_1 img {
+        width: 93.5%;
+    }
+    .step_3::after {
+        content: "";
+        width: 195px;
+        height: 195px;
+        top: 53%;
+        left: 0%;
+    }
+    .dottied_img_2 {
+        margin: 1% 0% 0% 3.5%;
+    }
+    .dottied_img_2 img {
+        width: 93.5%;
+    }
+    .dottied_img_3 img {
+        width: 93.5%;
+    }
+    .confirm_wallet_content {
+        text-align: start;
+        padding: 34% 0 0 8%;
+        color: #fff;
+        position: relative;
+    }
+    .dottied_img_4 {
+        margin: -9% 0% 0% 3.5%;
+    }
+    .dottied_img_4 img {
+        width: 93.5%;
+    }
+    .step_5::after {
+        content: "";
+        width: 195px;
+        height: 195px;
+        top: 63%;
+        left: 1%;
+    }
+    .step_5::before{
+        width: 14px;
+        height: 14px;
+        top: 30%;
+        left: 6.5%;
+    }
+}
+/* Media query for small screnn 1024 screen*/
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    .pair_amount_content p {
+        width: 400px;
+    }
+    .pair_amount_img img {
+        margin: 0px 0px 0px -50px;
+        padding-top: 20px;
+    }
+    .step_1::after {
+        position: absolute;
+        top: 36%;
+        left: -2%;
+    }
+    .exchange_services_img img {
+        padding-top: 20px;
+    }
+    .exchange_services_content {
+        color: #fff;
+        text-align: left;
+        padding: 20% 6% 0 16%;
+    }
+    p.selected_services_para{
+        width: 400px;
+    }
+    .step_2::after {
+        position: absolute;
+        top: 32%;
+        left: 6%;
+    }
+    .dottied_img_1 img {
+        width: 99.5%;
+    }
+    .pair_amount::after {
+        content: "";
+        width: 560px;
+        height: 335px;
+        position: absolute;
+        top: 115%;
+        left: 4%;
+    }
+    p.confirm_wallet_para {
+        width: 400px;
+    }
+    .step_3::after {
+        position: absolute;
+        top: 55%;
+        left: -2%;
+    }
+    .dottied_img_2 img {
+        width: 99.5%;
+    }
+    .exchange_services::after {
+        content: "";
+        width: 560px;
+        height: 335px;
+        position: absolute;
+        top: 86%;
+        left: 4.5%;
+    }
+    .confirm_wallet_img img {
+        margin: 0px 0px 0px -50px;
+        padding-top: 20px;
+    } 
+    p.awaiting_payment_para {
+        width: 400px;
+    }
+    .awaiting_payment_img img {
+        padding-top: 20px;
+    }
+    .confirm_wallet_content {
+        text-align: start;
+        padding: 34% 0 0 8%;
+        color: #fff;
+    }
+    .step_4::after {
+        position: absolute;
+        top: 73%;
+        left: 5%;
+    }
+
+    .dottied_img_3 img {
+        width: 99.5%;
+    }
+    .awaiting_payment_content {
+        padding: 46% 0% 0% 16%;
+        color: #fff;
+        text-align: left;
+    }
+    .dottied_img_4 img {
+        width: 99.5%;
+    }
+    .processing_swap_img img {
+        margin: 0px 0px 0px -28px;
+        padding-top: 20px;
+    }
+    .step_5::after {
+        position: absolute;
+        top: 57%;
+        left: -1%;
+    }
+    .awaiting_payment::after{
+        content: "";
+        width: 560px;
+        height: 335px;
+        position: absolute;
+        top: 86%;
+        left: 4.5%;
+    }
+    .step_5::before {
+        content: "";
+        width: 12px;
+        height: 12px;
+        background-color: transparent;
+        border: 2px solid #F4A70B;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        top: 21%;
+        left: 6%;
+    }
+}
+/* Media query for small screnn 1440 screen*/
+@media only screen and (min-width: 1440px) and (max-width: 1440px) {
+
+    .step_1::after {
+        width: 65px;
+        height: 168px;
+        position: absolute;
+        top: 47%;
+        left: 1%;
+    }
+    .step_2::after {
+        position: absolute;
+        top: 43%;
+        left: 9%;
+    }
+    .dottied_img_1 img {
+        width: 97.5%;
+    }
+    .exchange_services_content {
+        color: #fff;
+        text-align: left;
+        padding: 20% 8% 0 16%;
+    }
+    .confirm_wallet_content {
+        text-align: start;
+        padding: 25% 0 0 6%;
+        color: #fff;
+    }
+    .step_3::after {
+        width: 109px;
+        height: 168px;
+        position: absolute;
+        top: 59%;
+        left: -1%;
+    }
+    .dottied_img_3 img {
+        width: 97.5%;
+    }
+    .step_4::after {
+        position: absolute;
+        top: 72%;
+        left: 9%;
+    }
+    .dottied_img_4 img {
+        width: 97.5%;
+    }
+    .dottied_img_4 {
+        margin: -7% 0% 0% 3.5%;
+    }
+    .step_5::before {
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        top: 30%;
+        left: 6.5%;
+    }
+    .awaiting_payment_content {
+        padding: 31% 08% 0% 17%;
+    } 
+    .step_5::after {
+        position: absolute;
+        top: 67%;
+        width: 110px;
+        height: 168px;
+        left: 1%;
+    }
+    .dottied_img_2 img {
+        width: 97.5%;
+    }
+    .dottied_img_2 {
+        margin: -3% 0% 0% 3.5%;
+    }
+}
+
+/* Media query for Tablet 768 screen*/
+@media only screen and (min-width: 768px) and (max-width:1023px){
+      /*pair_amount responsive styling start*/
+      .exchange_services_img img {
+        margin-top: 26%;
+    }
+      .dottied_img_1 {
+        display: none;
+    }
+    .dottied_img_2 {
+        display: none;
+    }
+    .dottied_img_3 {
+        display: none;
+    }
+    .dottied_img_4 {
+        display: none;
+    }
+      .dottied_img_1{
+        display: none;
+      }
+      .pairAmount_responsive_img img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0px 0px 0px 0px;
+        padding-top: 0px;
+    }
+    .pair_amount_img img{
+        display: none;
+    }
+    .pair_amount_content {
+        text-align: left;
+        padding: 18% 0% 12% 0%;
+        width: 70%;
+        margin: 0 auto;
+        text-align: left;
+        position: relative;
+    }
+    .step_1::after {
+        content: "";
+        width: 65px;
+        height: 168px;
+        background-image: url(../images/number_1\ \(1\).png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: 36%;
+        left: -10%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+    }
+    p.pair_amount_para::after {
+      display: none;
+    }
+    .pair_amount::after {
+        content: "";
+        width: 12px;
+        height: 180px;
+        background-image: url(../images/Dotted\ Line\ 1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: 102%;
+        left: 48%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+    }
+     /*pair_amount responsive styling end*/
+     /*exchange_services responsive styling start*/
+    .exchange_services_content {
+        width: 70%;
+        color: #fff;
+        text-align: left;
+        padding: 18% 0% 0 0%;
+        margin: 0px auto;
+    }
+    .exchange_services_content{
+        position: relative;
+    }
+    .step_2::after {
+        content: "";
+        width: 102px;
+        height: 168px;
+        background-image: url(../images/2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: 44%;
+        left: -11%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+        z-index: 1;
+    }
+    .exchange_services::after {
+        content: "";
+        width: 12px;
+        height: 180px;
+        background-image: url(../images/Dotted\ Line\ 2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: 108%;
+        left: 48%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+    }
+    /*exchange_services responsive styling end*/
+
+    /*confirm_wallet_adress responsive styling start*/
+    .confirm_wallet_content {
+        text-align: start;
+        padding: 18% 0% 10% 8%;
+        color: #fff;
+    }
+    .confirmWallet_responsive_img img {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding-top: 10%;
+        margin-top: 29%;
+    }
+     .confirm_wallet_img img {
+        display: none;
+    }
+    .step_3::after {
+        content: "";
+        width: 109px;
+        height: 168px;
+        background-image: url(../images/3.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: 42%;
+        left: 1%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+    }
+    .confirm_wallet_adress::after {
+        content: "";
+        width: 12px;
+        height: 180px;
+        background-image: url(../images/Dotted\ Line\ 2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: 104%;
+        left: 48%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+    }
+    .awaiting_payment {
+        padding: 170px 0px;
+    }
+    .awaiting_payment_content {
+        padding: 18% 0% 0% 0%;
+        text-align: left;
+        width: 70%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .step_4::after {
+        content: "";
+        width: 102px;
+        height: 168px;
+        background-image: url(../images/4.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: 66%;
+        left: -10%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+        z-index: 1;
+    }
+    .processing_swap_content {
+        text-align: start;
+        padding: 18% 0 10% 8%;
+        color: #fff;
+    }
+     /*confirm_wallet_adress responsive styling end*/
+     .awaiting_payment_img img {
+        width: 100%;
+        height: auto;
+        margin-top: 8%;
+        padding: 0% 2%;
+    }
+    .processingSwap_responsiv_img{
+        display: block;
+    }
+    .processingSwap_responsiv_img img {
+        padding: 0% 2% 0% 2%;
+        width: 100%;
+        height: auto;
+        margin-top: 17%;
+    }
+    .processing_swap_img{
+        display: none;
+    }
+    .awaiting_payment_para::after {
+        content: "";
+        width: 12px;
+        height: 180px;
+        background-image: url(../images/Dotted\ Line\ 4_respon.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: 158%;
+        left: 48%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+    }
+    .step_5::before {
+        display: none;
+    }
+    .step_5::after {
+        content: "";
+        width: 110px;
+        height: 168px;
+        background-image: url(../images/5.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: 46%;
+        left: 2%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+    }
+    .awaiting_payment::after {
+       display: none;
+    }
+  
+}
+/* Media query for mobile devices*/
+@media only screen and (max-width: 767px){
+
+    .dottied_img_1 {
+        display: none;
+    }
+    .dottied_img_2 {
+        display: none;
+    }
+    .dottied_img_3 {
+        display: none;
+    }
+    .dottied_img_4 {
+        display: none;
+    }
+    .col-lg-6.exchange_services_img_rsponsive {
+        display: block;
+    }
+    .awaiting_payment::after {
+        display: none;
+     }
+    .pair_amount_content p {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+        color: #A3A09E;
+        width: 332px;
+    }
+    .pairAmount_responsive_img img{
+        display: block;
+        margin: 0px 0px 0px 0px; 
+        padding-top: 0px; 
+    }
+    .pair_amount_img img{
+        display: none;
+    }
+     .pair_amount_content {
+        text-align: left;
+        padding: 32% 0% 12% 0%;
+        width: 70%;
+        margin: 0 auto;
+        text-align: left;
+        position: relative;
+    }
+    .step_1::after {
+        content: "";
+        width: 65px;
+        height: 168px;
+        background-image: url(../images/number_1\ \(1\).png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: 33%;
+        left: -17%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+    }
+    p.pair_amount_para::after {
+      display: none;
+    }
+    .pair_amount::after {
+        content: "";
+        width: 12px;
+        height: 180px;
+        background-image: url(../images/Dotted\ Line\ 1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: 106%;
+        left: 46%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+    }
+     /*pair_amount responsive styling end*/
+     /*exchange_services responsive styling start*/
+     p.selected_services_para {
+        width: 332px;
+    }
+    .exchange_services_img img {
+        height: 562px;
+        width: 372px;
+        padding: 0px 15px;
+    }
+    .exchange_services_content {
+        width: 70%;
+        color: #fff;
+        text-align: left;
+        padding: 30% 0% 0% 0%;
+        margin: 0px auto;
+    }
+    .exchange_services_content{
+        position: relative;
+    }
+    .step_2::after {
+        content: "";
+        width: 102px;
+        height: 168px;
+        background-image: url(../images/2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: 32%;
+        left: -19%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+        z-index: 1;
+    }
+    .exchange_services::after {
+        content: "";
+        width: 12px;
+        height: 180px;
+        background-image: url(../images/Dotted\ Line\ 2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: 95%;
+        left: 46%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+    }
+       .exchange_services_img{
+        display: none;
+       }
+    /*exchange_services responsive styling end*/
+
+    /*confirm_wallet_adress responsive styling start*/
+    .confirmWallet_responsive_img img {
+        display: block;
+        width: 372px;
+        height: 428px;
+        padding-top: 18%;
+    }
+     .confirm_wallet_img img {
+        display: none;
+    }
+    .step_3::after {
+        content: "";
+        width: 109px;
+        height: 168px;
+        background-image: url(../images/3.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: 33%;
+        left: -17%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+    }
+    .confirm_wallet_content {
+        padding: 30% 0 0 8%;
+        color: #fff;
+        width: 70%;
+        text-align: left;
+        padding: 30% 0% 21% 0%;
+        margin: 0px auto;
+    }
+    p.confirm_wallet_para {
+        width: 332px;
+    }
+    .confirm_wallet_adress::after {
+        content: "";
+        width: 12px;
+        height: 180px;
+        background-image: url(../images/Dotted\ Line\ 2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: 104%;
+        left: 46%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+    }
+    .awaiting_payment {
+        padding: 170px 0px;
+    }
+    .awaiting_payment_content {
+        padding: 32% 0% 12% 0%;
+        text-align: left;
+        width: 70%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .step_4::after {
+        content: "";
+        width: 102px;
+        height: 168px;
+        background-image: url(../images/4.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: 51%;
+        left: -18%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+        z-index: 1;
+    }
+    .processingSwap_responsiv_img{
+        display: block;
+    }
+    .processingSwap_responsiv_img img {
+        padding: 20% 0% 0% 0%;
+    }
+    .processing_swap_img{
+        display: none;
+    }
+    .awaiting_payment_para::after {
+        content: "";
+        width: 12px;
+        height: 180px;
+        background-image: url(../images/Dotted\ Line\ 4_respon.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: 133%;
+        left: 46%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+    }
+    .step_5::before {
+        display: none;
+    }
+    .step_5::after {
+        content: "";
+        width: 110px;
+        height: 168px;
+        background-image: url(../images/5.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: 39%;
+        left: -16%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+    }
+    .processing_swap_content {
+        text-align: start;
+        padding: 30% 0 14% 8%;
+        color: #fff;
+        width: 70%;
+        text-align: left;
+        padding: 30% 0% 21% 0%;
+        margin: 0px auto;
+    }
+    .awaiting_payment_para {
+        width: 332px; 
+    }
+    .exchange_services_img_rsponsive img {
+        width: 372px;
+        height: 292px;
+    }
+    .exchange_services {
+        padding: 45% 0%;
+    }
+    
+}
+/* Media query for small mobile devices*/
+@media only screen and (max-width: 375px){
+
+    .dottied_img_1 {
+        display: none;
+    }
+    .dottied_img_2 {
+        display: none;
+    }
+    .dottied_img_3 {
+        display: none;
+    }
+    .dottied_img_4 {
+        display: none;
+    }
+    .exchange_services_img_rsponsive img {
+        width: 316px;
+        height: 292px;
+    }
+    .awaiting_payment_img img {
+        width: 316px;
+        height: 395px;
+    }
+    .awaiting_payment_para {
+        width: 285px;
+    }
+    .processingSwap_responsiv_img img {
+        padding: 20% 0% 0% 0%;
+        width: 316px;
+        height: 425px;
+    }
+    p.confirm_wallet_para {
+        width: 285px;
+    }
+    .pairAmount_responsive_img img {
+        width: 316px;
+        height: 395px;
+    }
+    .pair_amount_content p {
+        width: 285px;
+    }
+    .step_4::after {
+        content: "";
+        width: 65px;
+        height: 168px;
+        background-image: url(../images/4.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: 31%;
+        left: -20%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+    }
+    .exchange_services_img img {
+        height: 530px;
+        width: 350px;
+        padding: 0px 15px;
+    }
+    p.selected_services_para {
+        width: 285px;
+    }
+    .step_2::after {
+        position: absolute;
+        top: 27%;
+        left: -23%;
+    }
+    .step_4::after {
+        position: absolute;
+        top: 49%;
+        left: -23%;
+        width: 104px;
+        height: 168px;
+    }
+    .confirmWallet_responsive_img img {
+        display: block;
+        width: 315px;
+        height: 395px;
+        padding-top: 21%;
+    }
+    .step_1::after {
+        top: 29%;
+        left: -20%;
+    }
+    .step_3::after {
+        top: 28%;
+        left: -20%;
+    }
+    .step_5::after {
+        top: 35%;
+        left: -19%;
+    }
+    .exchange_services {
+        padding: 50% 0% 45% 0%;
+    }
+    .exchange_services_content {
+        width: 70%;
+        color: #fff;
+        text-align: left;
+        padding: 32% 0% 3% 0%;
+        margin: 0px auto;
+    }
+
+}
+/* Media query for E-small mobile devices*/
+@media only screen and (max-width: 320px){
+
+    .dottied_img_1 {
+        display: none;
+    }
+    .dottied_img_2 {
+        display: none;
+    }
+    .dottied_img_3 {
+        display: none;
+    }
+    .dottied_img_4 {
+        display: none;
+    }
+    .pairAmount_responsive_img img {
+        width: 100%;
+        height: auto;
+    }
+    .pair_amount_content p {
+        width: 240px;
+    }
+    .exchange_services_img_rsponsive img {
+        width: 100%;
+        height: auto;
+    }
+    p.selected_services_para {
+        width: 240px;
+    }
+    .confirmWallet_responsive_img img {
+        padding-top: 24%;
+        width: 100%;
+        height: auto;
+    }
+    p.confirm_wallet_para {
+        width: 240px;
+    }
+    .awaiting_payment_img img {
+        width: 100%;
+        height: auto;
+    }
+    .awaiting_payment_para {
+        width: 240px;
+    }
+    .processingSwap_responsiv_img img {
+        padding: 32% 0% 0% 0%;
+        width: 100%;
+        height: auto;
+    }
+    .step_1::after {
+        top: 23%;
+        left: -23%;
+    }
+    .pair_amount_content {
+        padding: 32% 0% 18% 0%;
+    }
+    .exchange_services {
+        padding: 52% 0% 47% 0%;
+    }
+    .step_2::after {
+        position: absolute;
+        top: 22%;
+        left: -24%;
+    }
+    .step_3::after {
+        top: 26%;
+        left: -25%;
+    }
+    .step_4::after {
+        position: absolute;
+        top: 43%;
+        left: -24%;
+    }
+    .awaiting_payment_para::after {
+        content: "";
+        width: 12px;
+        height: 180px;
+        background-image: url(../images/Dotted\ Line\ 4_respon.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: 145%;
+        left: 43%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+    }
+    .step_5::after {
+        top: 31%;
+        left: -22%;
+    }
+    .confirm_wallet_adress::after {
+        content: "";
+        width: 12px;
+        height: 180px;
+        background-image: url(../images/Dotted\ Line\ 2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: 104%;
+        left: 43%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+    }
+
+}

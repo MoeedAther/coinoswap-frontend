@@ -1,0 +1,71 @@
+/* Media query for Tablet 768 screen*/
+@media only screen and (min-width: 768px) and (max-width:1023px){
+    .footer-links-partners-div {
+        padding-top: 40px;
+        display: flex;
+        justify-content: start;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .footer-div-links {
+        padding-top: 7%;
+    }
+    .pair-1 {
+        border-bottom: 1px solid #555552;
+        border-right:0px ;
+        padding-bottom: 20px;
+    }
+    .pair-2 {
+        border-bottom: 1px solid #555552;
+        border-right:0px ;
+        padding-bottom: 20px;
+    }   
+    .pair-3 {
+        border-bottom: 1px solid #555552;
+        border-right:0px ;
+        padding-bottom: 20px;
+    }
+    .footerRow_desktop{
+        display: none;
+    }
+    .footerRow_mobile{
+        display: block;
+    }
+    .payment-logo {
+        text-align: center;
+    }
+    .payment-logo h5 {
+        font-size: 20px;
+    }
+    .payment-logo img {
+        width: 35%;
+    }
+    .social-icons {
+        width: 8%;
+        height: 45%;
+        margin: 6px;
+        border-radius: 6px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   
+    .coin-logo {
+        width: 30px;
+        height: 30px;
+    }
+    .pair {
+        padding: 0% 5.5%;
+    }
+    .coin-text span:nth-child(1) {
+        font-size: 16px;
+    }
+    .coin-text span:nth-child(2) {
+        font-size: 14px;
+    }
+    .arrow {
+        width: 50px;
+    }
+    
+}

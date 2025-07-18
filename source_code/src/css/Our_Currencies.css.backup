@@ -1,0 +1,272 @@
+
+/*currencies section styling start*/
+.currencies-section {
+  text-align: center;
+  padding: 7% 0%;
+}
+h1.currencies_heading {
+  font-family: basementgrotesque;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  color: #fff;
+}
+strong.currencies_strong {
+  color: #F4A70B;
+}
+p.currencies_para {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #fff;
+}
+/*currencies section styling end*/
+
+/*Table section styling start*/
+section.table_section {
+  border-radius: 20px;
+  background-color: #fff;
+  margin: 0px 15px;
+  padding: 2% 1.5%;
+}
+
+/*search box styling start*/
+
+/* Container for the search box */
+.search-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 25px 0px 49px 0px;
+}
+
+/* Styling for the label above the search bar */
+.search-label {
+    color: #100F0E;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background: #fff;
+    padding: 0 5px;
+    z-index: 1;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+/* Wrapper around the search box and icon */
+.search-box-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid #100F0E;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* Styling the search box (input field) */
+.search-box {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #5E5C5B;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+/* Placeholder styling */
+.search-box::placeholder {
+  color: #aaa;
+}
+
+/* Search icon on the right side */
+.search-icon-currencies {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+/* Styling for the icon inside the search bar */
+.search-icon-currencies img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+}
+
+.search-icon-currencies img:hover {
+  opacity: 1;
+}
+/* Table Styles */
+.table-header {
+  padding-bottom: 2%;
+  border-bottom: 1px solid #C5C2BF;
+}
+.table-header h4 {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  color: #5E5C5B;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+/* Coin information */
+.coin-info {
+  display: flex;
+  align-items: center;
+}
+.coin-info strong {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.2px;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.coin-icon {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+.coin-fullname {
+  margin: 0;
+  color: #5E5C5B;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+}
+/* Button Styling */
+.exchange-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 1000px;
+  color: #100F0E;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  width: 208px;
+  height: 48px;
+  border: 1px solid #100F0E;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  font-family: basementgrotesque;
+  background-color: transparent;
+}
+.H_info {
+  color: #EC0927;
+}
+.price_info {
+  color: #F34900;
+}
+
+.h_market{
+  padding-left: 5%;
+}
+
+.h_volume{
+  padding-left: 13px;
+}
+
+.t_data {
+  border-bottom: none;
+  font-family: basementgrotesque;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 19.2px;
+  width: 21%;
+}
+.exchange-button .exchange-icon {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+  background-image: url('../images/Exchange Icon.png'); /* Add the path to your exchange icon here */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/* Row Hover Effect */
+.table-row:hover:hover {
+  background: linear-gradient(90deg, rgba(244, 167, 11, 0.12) 0%, rgba(244, 167, 11, 0.28) 50%, rgba(244, 167, 11, 0.12) 100%);
+  cursor: pointer;
+  border-radius: 1000px;
+  transition: background-color 0.3s ease;
+} 
+.table-row{
+  margin: 20px 0px;
+}  
+
+/* Hover Effect for the Entire Row */
+.table-row:hover .exchange-button {
+  background-color: #F4A70B; /* Yellow background when row is hovered */
+  border-color: #F4A70B;
+}
+
+/* Hover Effect for the Exchange Button */
+.exchange-button:hover {
+  background-color: #F4A70B; /* Yellow background when button is hovered */
+  border-color: #F4A70B;
+}
+
+.previous a{
+  width: 100px !important;
+  border-radius:30px !important;
+  height: 50px !important;
+}
+
+.next a{
+  width: 100px !important;
+  border-radius:30px !important;
+  height: 50px !important;
+}
+
+.pagination li{
+  padding: 10px 10px;
+}
+
+.pagination li> a{
+  color: #f8f6f4 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #dedada;
+  text-decoration: none;
+}
+
+.pagination li> a:hover{
+  background-color: #f4a709;
+  /* color: black !important; */
+  border: none;
+  cursor: pointer !important;
+}
+
+
+.currency-pagination-div{
+  display: flex;
+  justify-content: center;
+  margin: 60px 0px;
+}
+
+.pagination{
+  width: fit-content;
+}
+
+.active_page::after{
+  background-color: transparent;
+}
+
+.active_page>a{
+  background-color: #f4a709;
+  color: black !important;
+  border: none !important;
+}
+
+

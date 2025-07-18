@@ -1,0 +1,17 @@
+.avaiable-soon{
+    text-align: center;
+    width: 840px;
+    margin: 10% auto;
+}
+
+
+.avaiable-soon h1{
+    font-family: 'basementgrotesque';
+    color: #E9830F;
+    font-size: 30px;
+    margin-bottom:2%;
+}
+
+.avaiable-soon p{
+    color: #93918E;
+}

@@ -1,0 +1,31 @@
+@media only screen and (max-width: 768px) {
+  .avaiable-soon h1 {
+    font-size: 25px !important;
+  }
+
+  .avaiable-soon {
+    width: 600px;
+  }
+
+  .avaiable-soon {
+    margin: 30% auto;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .avaiable-soon {
+    width: 300px;
+  }
+
+  .avaiable-soon h1 {
+    font-size: 20px !important;
+  }
+
+  .avaiable-soon p {
+    font-size: 12px !important;
+  }
+
+  .avaiable-soon {
+    margin: 50% auto;
+  }
+}

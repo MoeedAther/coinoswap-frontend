@@ -1,0 +1,1002 @@
+body {
+  overflow-x: hidden;
+}
+.enter-address-text-div > :nth-child(1) {
+  width: 50px;
+  position: absolute;
+  left: 15px;
+}
+
+.enter-address-text-div > :nth-child(2) {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  font-family: "basementgrotesque";
+}
+
+.enter-address-text-div > :nth-child(3) {
+  font-size: 36px;
+  font-weight: bold;
+  color: #f4a70c;
+  font-family: "basementgrotesque";
+}
+
+.enter-address-text-div > :nth-child(4) {
+  font-size: 17px;
+  display: block;
+  color: #928f8c;
+}
+
+.enter-address-text-div > :nth-child(5) {
+  font-size: 17px;
+  display: block;
+  /* font-weight: bold; */
+  color: #928f8c;
+}
+#thumb-cursor {
+  cursor: pointer !important; /* Changes cursor to a hand/thumb icon */
+}
+
+.send-coin-logo-submit-deposit {
+  width: 30px;
+  margin-bottom: 5px;
+}
+
+.submit-partner-logo {
+  width: 230px;
+}
+.submit-data {
+  font-size: 20px;
+}
+.rounded-div {
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 12px 20px;
+  margin-top: 13px;
+  text-align: center;
+}
+.rounded-div-align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rounded-div-tx {
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 12px 20px;
+  text-align: center;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.QRadress_mobile {
+  display: none;
+}
+.copy-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.recipient-input-how-to > :nth-child(1) {
+  display: block;
+  color: white;
+  font-weight: bold;
+  font-family: "basementgrotesque";
+  font-size: 33px;
+}
+
+.recipient-input-how-to > :nth-child(2) {
+  color: #928f8c;
+  font-size: 17px;
+}
+
+.recipient-input-how-to > :nth-child(3) {
+  display: block;
+  color: #928f8c;
+  font-size: 17px;
+}
+
+.three-and-four-step > :nth-child(1) > img {
+  width: 120px;
+}
+.three-and-four-step > :nth-child(2) {
+  width: 250px;
+  margin-left: 130px;
+  margin-right: 20px;
+}
+.three-and-four-step > :nth-child(3) > img {
+  width: 120px;
+}
+.three-and-four-step > :nth-child(1) {
+  position: relative;
+}
+.three-and-four-step > :nth-child(1) > div {
+  width: 260px;
+  position: absolute;
+  top: 52px;
+  left: 45px;
+}
+
+.three-and-four-step > :nth-child(3) {
+  position: relative;
+}
+.three-and-four-step > :nth-child(3) > div {
+  width: 260px;
+  position: absolute;
+  top: 52px;
+  left: 54px;
+}
+
+.three-and-four-step > :nth-child(1) > div > :nth-child(1) {
+  display: block;
+  color: white;
+  font-family: "basementgrotesque";
+  font-size: 23px;
+}
+
+.three-and-four-step > :nth-child(1) > div > :nth-child(2) {
+  display: block;
+  color: #928f8c;
+  font-size: 16px;
+}
+.three-and-four-step > :nth-child(1) > div > :nth-child(3) {
+  display: block;
+  color: #928f8c;
+  font-size: 16px;
+  margin-top: -5px;
+}
+.three-and-four-step > :nth-child(1) > div > :nth-child(4) {
+  display: block;
+  color: #928f8c;
+  font-size: 16px;
+  margin-top: -5px;
+}
+
+.three-and-four-step > :nth-child(3) > div > :nth-child(1) {
+  display: block;
+  color: white;
+  font-family: "basementgrotesque";
+  font-size: 23px;
+}
+
+.three-and-four-step > :nth-child(3) > div > :nth-child(2) {
+  display: block;
+  color: #928f8c;
+  font-size: 16px;
+}
+.three-and-four-step > :nth-child(3) > div > :nth-child(3) {
+  display: block;
+  color: #928f8c;
+  font-size: 16px;
+  margin-top: -5px;
+}
+.three-and-four-step > :nth-child(3) > div > :nth-child(4) {
+  display: block;
+  color: #928f8c;
+  font-size: 16px;
+  margin-top: -5px;
+}
+
+.three-and-four-step {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+/* New submit deposit css */
+
+.deposit-info {
+  background-color: white;
+  margin: 0px 30px;
+  border-radius: 20px;
+  position: relative;
+  padding: 0.5% 2%;
+}
+
+.deposit-switch {
+  background-color: rgb(227, 225, 222);
+  border-radius: 50px;
+}
+
+.deposit-switch > button:active {
+  box-shadow: unset !important;
+}
+
+.deposit-add {
+  border-radius: 50px;
+  background-color: black;
+  border: unset;
+  width: 50%;
+  font-weight: bold;
+  font-family: basementgrotesque;
+  font-size: 14px;
+  height: 45px;
+}
+
+.deposit-add:hover {
+  background-color: unset;
+}
+.destination-tag {
+  border-radius: 50px;
+  background-color: rgb(227, 225, 222);
+  border: unset;
+  width: 50%;
+  font-weight: bold;
+  font-family: basementgrotesque;
+  font-size: 14px;
+  height: 45px;
+  color: black;
+}
+
+.destination-tag:hover {
+  background-color: unset;
+}
+
+.deposit-QR-container {
+  width: 360px;
+  position: absolute;
+  right: 2%;
+  top: 25%;
+}
+
+.QR-div {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.deposit-switch {
+  margin-bottom: 10px;
+}
+
+.time-remaining {
+  text-align: center;
+}
+
+.time-remaining p {
+  color: #7a7877;
+  margin-bottom: 0px;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.time-remaining span {
+  font-family: basementgrotesque;
+  font-weight: bold;
+  font-size: 23px;
+  color: black;
+}
+
+.ex-type div {
+  display: flex;
+  align-items: center;
+}
+
+.ex-partner p {
+  color: #7a7877;
+  margin-bottom: 0px;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.ex-partner span {
+  font-family: basementgrotesque;
+  font-weight: bold;
+  font-size: 23px;
+  color: black;
+}
+
+.add-txt {
+  display: flex;
+}
+
+.dep-add > :nth-child(1) {
+  color: #7a7877;
+}
+
+.dest-tag > :nth-child(1) {
+  color: #7a7877;
+}
+
+.recp-destination-tag {
+  margin: 20px 0px;
+}
+
+.recp-destination-tag span {
+  color: #7a7877;
+}
+
+.order-tx-id {
+  margin-bottom: 20px;
+}
+
+.resp-add-txt {
+  display: flex;
+}
+
+.submit-li::marker {
+  color: black;
+}
+
+.submit-li-extraid::marker {
+  color: black !important;
+  font-size: 12px;
+}
+
+.submit-li-extraid {
+  font-size: 12px;
+}
+
+.submit-li {
+  color: black;
+  font-size: 12px;
+  margin: 10px 0px;
+  font-weight: 500;
+}
+
+.submit-ul {
+  margin-bottom: 0px;
+  padding-left: 35px;
+}
+
+.recommendation {
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.recommendation a {
+  font-size: 13px;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 2px;
+}
+
+.submit_uls {
+  margin-bottom: 25px;
+}
+
+.ex-type img {
+  width: 25px;
+}
+
+.recp-destination-tag-txt {
+  width: 500px;
+  overflow: hidden;
+}
+
+.recp-tag-txt span {
+  font-weight: bold;
+  font-family: basementgrotesque;
+  font-size: 18px;
+  color: black;
+}
+
+.submit_deposit_address_width_submitdeposit_page {
+  width: 400px;
+  overflow: hidden;
+}
+
+.recipient_address_submit_width_submitdeposit_page {
+  width: 400px;
+  overflow: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.QR_inner {
+  width: 240px;
+  height: auto;
+}
+
+.dep-add-container {
+  margin-bottom: 50px;
+}
+
+/* Media query for small screnn 1024 screen*/
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .submit-data {
+    font-size: 16px;
+  }
+  .rounded-div {
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 12px 18px;
+    margin-top: 13px;
+    text-align: center;
+    font-size: 13px;
+  }
+  .copy-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+  }
+  .trx-type-submit {
+    display: flex;
+  }
+  .partner-image {
+    width: 70%;
+    height: auto;
+  }
+  .submit-li {
+    color: #928f8c;
+    font-size: 12px;
+    margin: 10px 0px;
+  }
+  .col-5.submit_uls {
+    padding-right: 20px !important;
+  }
+  .QR_code {
+    width: 223px !important;
+  }
+  svg.QR_inner {
+    padding: 0px 15px 1px 0px;
+  }
+  .deposit_adres {
+    margin: 2px auto !important;
+    text-align: center;
+    width: 25%;
+  }
+}
+/* Media query for Tablet 768 screen*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .progress-div-awaiting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 13% 11% 0% 11%;
+  }
+  .progress-div-awating-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .progress-div-awating-status > :nth-child(1) {
+    color: #f4a70c;
+    font-weight: 700;
+    margin-left: 40px;
+  }
+  .progress-div-awating-status > :nth-child(2) {
+    color: #f4a70c;
+    font-weight: 700;
+    margin-left: -57px;
+  }
+  .back_btn {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin: 0% 0% -6.5% 19%;
+  }
+  .progress-div-awating-status > :nth-child(3) {
+    color: white;
+    font-weight: 700;
+    margin-right: 54px;
+  }
+  .enter-address-text-div {
+    text-align: center;
+    margin-top: 95px;
+    margin-bottom: 60px;
+  }
+  .enter-address-text-div > :nth-child(3) {
+    padding-top: 30px;
+  }
+  .QRadress_desktop {
+    display: none;
+  }
+  .QRadress_mobile {
+    display: block !important;
+    width: 100%;
+  }
+  .col-2.QR_col {
+    display: flex;
+    justify-content: start !important;
+  }
+  .QR_code {
+    width: 260px !important;
+    height: 260px !important;
+  }
+  .QR_inner {
+    height: auto;
+    width: 100% !important;
+  }
+  .rounded-div-align-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .deposit_adres {
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+    height: 122px;
+    margin-top: 10%;
+    padding-left: 45px;
+  }
+  .recipient-adress {
+    padding-left: 45px;
+    margin: 33px auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .Remaining_time {
+    width: 100%;
+    text-align: center;
+    margin-top: 85px;
+    padding-left: 45px;
+  }
+  .submit-data {
+    font-size: 20px;
+    text-align: center;
+  }
+  .submit-partner-logo {
+    width: 62% !important;
+    margin: 0px auto;
+  }
+  .exchange_partner {
+    width: 100%;
+    margin: 45px auto;
+    text-align: center;
+    padding-left: 45px;
+  }
+  .exchange_img {
+    max-width: 45%;
+    height: auto;
+  }
+  .exchange_heading {
+    font-size: 28px;
+  }
+  .order_track {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    padding-left: 45px;
+  }
+  .exchange_type {
+    width: 100%;
+    margin: 45px auto;
+    text-align: center;
+    padding-left: 45px;
+  }
+  .submit_uls {
+    padding: 15px 0px 15px 25px;
+  }
+  .recipient-input-how-to {
+    text-align: center;
+    margin-top: 110px;
+  }
+  .three-and-four-step {
+    width: 700px;
+    display: flex;
+    align-items: start !important;
+    margin: auto;
+    margin-top: 100px;
+    flex-direction: column;
+    margin-bottom: 200px;
+    gap: 70px;
+    padding-left: 80px;
+  }
+  .horizontal_line {
+    display: none;
+  }
+  img.vertical_line {
+    display: block !important;
+  }
+  .three-and-four-step > :nth-child(2) {
+    width: 250px;
+    margin-left: 55px;
+    margin-top: -29px;
+  }
+}
+/* Media query for mobile devices*/
+@media only screen and (max-width: 768px) {
+  .dep-add {
+    margin-bottom: 10px;
+  }
+
+  .enter-address-text-div > :nth-child(4) {
+    margin: 0px 50px;
+    margin-top: 40px;
+  }
+
+  .deposit-QR-container {
+    width: 100% !important;
+    position: relative !important;
+    top: unset !important;
+    right: unset !important;
+  }
+
+  .deposit-address-desktop {
+    display: none;
+  }
+  .progress-div-awating-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .progress-div-awaiting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 60px 11% 0% 11%;
+  }
+
+  .progress-div-awating-status > :nth-child(1) {
+    color: #f4a70c;
+    font-weight: 700;
+    margin-left: 50px;
+    font-size: 12px;
+  }
+  .progress-div-awating-status > :nth-child(2) {
+    color: #f4a70c;
+    font-weight: 700;
+    margin-left: -43px;
+    font-size: 12px;
+  }
+  .back_btn {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin: 0% 0% -11.5% 6%;
+  }
+  .progress-div-awating-status > :nth-child(3) {
+    color: white;
+    font-weight: 700;
+    margin-right: 68px;
+    font-size: 12px;
+  }
+  .enter-address-text-div {
+    text-align: center;
+    margin-top: 95px;
+    margin-bottom: 40px;
+  }
+  .enter-address-text-div > :nth-child(3) {
+    padding: 30px 20px 0px 20px;
+  }
+  .QRadress_desktop {
+    display: none;
+  }
+  .QRadress_mobile {
+    display: block !important;
+    width: 100%;
+  }
+  .QR_col {
+    width: 100%;
+    margin: 0px auto;
+    padding-left: 50px;
+  }
+  .col-2.QR_col {
+    display: flex;
+    justify-content: start !important;
+  }
+  .QR_code {
+    width: 260px !important;
+    height: 260px !important;
+  }
+  .QR_inner {
+    height: auto;
+    width: 280px !important;
+  }
+
+  .copy-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .deposit_adres {
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+    padding-left: 45px;
+  }
+  .recipient-adress {
+    margin: 33px auto;
+    text-align: center;
+    width: 100%;
+    padding-left: 45px;
+  }
+  .Remaining_time {
+    width: 100%;
+    text-align: center;
+    padding-left: 45px;
+    margin-top: 80px;
+  }
+  .submit-data {
+    font-size: 20px;
+    text-align: center;
+  }
+  .submit-partner-logo {
+    width: 100% !important;
+  }
+  .exchange_partner {
+    width: 100%;
+    margin: 45px auto;
+    text-align: center;
+    padding-left: 45px;
+  }
+  .exchange_img {
+    max-width: 45%;
+    height: auto;
+  }
+  .exchange_heading {
+    font-size: 16px;
+  }
+  .order_track {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    padding-left: 45px;
+  }
+  .exchange_type {
+    width: 100%;
+    text-align: center;
+    padding: 30px 15px 10px 45px;
+  }
+
+  .deposit-info {
+    margin: 0px 25px;
+  }
+
+  img#thumb-cursor {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+  }
+  .submit_uls {
+    padding: 15px 25px 15px 24px;
+  }
+  .recipient-input-how-to {
+    text-align: center;
+    margin-top: 105px !important;
+  }
+  .recipient-input-how-to > :nth-child(1) {
+    font-size: 24px !important;
+  }
+  .recipient-input-how-to > :nth-child(2) {
+    font-size: 16px;
+  }
+  .recipient-input-how-to > :nth-child(3) {
+    font-size: 16px;
+  }
+  .three-and-four-step {
+    align-items: start !important;
+    flex-direction: column;
+    gap: 70px;
+    padding-left: 35px;
+  }
+
+  .submit-li-extraid {
+    font-size: 12px;
+  }
+
+  .dep-add-container {
+    padding-left: 2%;
+  }
+
+  .recp-add-container {
+    padding-left: 2%;
+  }
+  .horizontal_line {
+    display: none !important;
+  }
+
+  .recp-tag-txt span {
+    font-size: 23px !important;
+  }
+
+  .deposit-switch {
+    width: 60%;
+    margin: auto;
+  }
+
+  img.vertical_line {
+    display: block !important;
+  }
+  .three-and-four-step > :nth-child(2) {
+    width: 250px;
+    margin-left: 55px;
+    margin-top: -29px;
+  }
+  .three-and-four-step {
+    margin-bottom: 113px !important;
+  }
+
+  .submit-ul {
+    padding-left: 25px !important;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .QRadress_mobile {
+    display: block !important;
+    width: 100%;
+  }
+  .progress-div-awating-status > :nth-child(1) {
+    color: #f4a70c;
+    font-weight: 700;
+    margin-left: 18px;
+    font-size: 12px;
+  }
+  .progress-div-awating-status > :nth-child(2) {
+    color: #f4a70c;
+    font-weight: 700;
+    margin-left: -33px;
+    font-size: 12px;
+  }
+  .progress-div-awating-status > :nth-child(3) {
+    color: white;
+    font-weight: 700;
+    margin-right: 15px;
+    font-size: 12px;
+  }
+  .back_btn {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin: 0% 0% -13.5% 4%;
+  }
+  .enter-address-text-div > :nth-child(3) {
+    padding: 30px 20px 0px 20px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .linebreak_submitdeposit {
+    display: none;
+  }
+
+  .submit_deposit_address_width_submitdeposit_page {
+    width: 300px;
+  }
+
+  .recipient_address_submit_width_submitdeposit_page {
+    width: 300px;
+  }
+
+  .deposit-info {
+    margin: 0px 10px;
+    padding: 25px 20px;
+  }
+
+  .deposit-switch {
+    width: 90%;
+    margin: auto;
+  }
+
+  .you-receive {
+    margin-bottom: 15px;
+  }
+
+  .time-remaining {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .dep-add-container {
+    padding-left: 3%;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  .dep-add > :nth-child(1) {
+    font-size: 15px !important;
+  }
+
+  .deposit-add {
+    font-size: 12px !important;
+  }
+
+  .destination-tag {
+    font-size: 12px !important;
+  }
+
+  .dest-tag > :nth-child(1) {
+    font-size: 15px !important;
+  }
+
+  .recp-add {
+    margin-bottom: 10px;
+  }
+
+  .recp-destination-tag span {
+    font-size: 15px !important;
+  }
+
+  .recp-add-container {
+    padding-left: 3%;
+  }
+
+  .recp-tag-txt span {
+    font-size: 23px !important;
+  }
+
+  .progress-div-awaiting {
+    width: 87%;
+    padding-top: 30px;
+  }
+
+  .progress-div-awating-status > :nth-child(1) {
+    font-size: 10px;
+    margin-left: 10%;
+  }
+
+  .progress-div-awating-status > :nth-child(2) {
+    margin-left: -4%;
+    font-size: 10px;
+  }
+
+  .progress-div-awating-status > :nth-child(3) {
+    margin-right: 15%;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .progress-div-awating-status > :nth-child(1) {
+    margin-left: 7%;
+  }
+
+  .progress-div-awating-status > :nth-child(2) {
+    margin-left: -4%;
+  }
+
+  .progress-div-awating-status > :nth-child(3) {
+    margin-right: 14%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .QRadress_mobile {
+    display: block !important;
+    width: 100%;
+  }
+  .Remaining_time {
+    width: 100%;
+    text-align: center;
+    margin-top: 95px;
+  }
+  .back_btn {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin: 0% 0% -18.5% 1%;
+  }
+  .progress-div-awating-status > :nth-child(1) {
+    color: #f4a70c;
+    font-weight: 700;
+    margin-left: 13px;
+    font-size: 12px;
+  }
+  .progress-div-awating-status > :nth-child(2) {
+    color: #f4a70c;
+    font-weight: 700;
+    margin-left: -8px;
+    font-size: 12px;
+  }
+  .progress-div-awating-status > :nth-child(3) {
+    color: white;
+    font-weight: 700;
+    margin-right: 15px;
+    font-size: 12px;
+  }
+}

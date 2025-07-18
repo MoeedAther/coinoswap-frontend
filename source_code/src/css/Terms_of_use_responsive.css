@@ -1,0 +1,30 @@
+/* Media query for small mobile devices*/
+@media only screen and (max-width: 375px){
+    
+}
+/* Media query for E-small mobile devices*/
+@media only screen and (max-width: 320px){
+    h1.Terms_heading {
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+        padding: 12px;
+        border-radius: 12px;
+        font-size: 25px;
+        font-weight: 800;
+        line-height: 33.6px;
+    }
+    .last_update {
+        margin: 40px auto;
+        height: 42px;
+        width: 95%;
+        border: 0.4px solid #F4A70B;
+        padding: 8px 15px;
+        border-radius: 100px;
+        background-color: transparent;
+    }
+    span.last_update_content {
+        color: #F4A70B;
+        font-size: 13px;
+        font-weight: 800;
+        line-height: 25.6px;
+    }
+}

@@ -1,0 +1,10 @@
+# Ignore node_modules inside source_code
+/source_code/node_modules/
+
+/source_code/src/images/
+
+# Ignore .env inside source_code
+/source_code/.env
+
+# Ignore system files
+.DS_Store

@@ -1,0 +1,21 @@
+.pagenotfound h1{
+    color: #ef960e;
+    font-weight: bold;
+    font-size: 90px;
+    font-family: basementgrotesque;
+    text-align: center;
+}
+
+.pagenotfound p{
+    font-family: basementgrotesque;
+color: white;
+font-size: 25px;
+}
+
+
+.pagenotfound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
