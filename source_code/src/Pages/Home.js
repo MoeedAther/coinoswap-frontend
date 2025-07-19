@@ -543,7 +543,7 @@ const Home = (props) => {
         <div className="section1-home row">
           <div className="col-xl-6 section1-home-heading-div">
             <h1 className="section1-home-headding">
-              <span>The Ultimate </span>
+              <span>The Ultimate... </span>
               <span style={{ color: "#F0970D" }}>Crypto </span>{" "}
               <span style={{ color: "#F0970D" }}>Exchange </span>
               <span> Aggregator</span>
